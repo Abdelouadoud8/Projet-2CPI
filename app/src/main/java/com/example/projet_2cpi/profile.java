@@ -14,7 +14,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.projet_2cpi.MainActivity;
-import com.example.projet_2cpi.R;
+import com.example.projet_2cpi.profile;
+import com.example.projet_2cpi.RecyclerViewAdapter;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -36,7 +37,7 @@ public class profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_layout);
 
-        Child = "Mohamed Aced Réda";
+        Child = RecyclerViewAdapter.getUSERNAME();
         //Text Views
         Username =(TextView)findViewById(R.id.username);
         Poste =(TextView)findViewById(R.id.poste);

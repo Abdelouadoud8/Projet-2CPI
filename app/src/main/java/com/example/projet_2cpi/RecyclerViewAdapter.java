@@ -25,10 +25,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.UsersViewHolder> {
 
+    private static String USERNAME;
     private final List<Users> mData;
     Context context;
     DatabaseReference reff;
-    private static String USERNAME;
+    //public String USERNAME;
 
 
 
@@ -42,8 +43,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_layout, parent, false);
         return new MainActivity.UsersViewHolder(itemView);
     }
-    @Override
 
+    @Override
     public void onBindViewHolder(MainActivity.UsersViewHolder holder, final int position)
     {
         Log.i("bind","ok");
@@ -54,6 +55,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
             public void onClick(View v) {
                 USERNAME = mData.get(position).getName();
                 Toast.makeText(v.getContext(),USERNAME,Toast.LENGTH_LONG).show();
+                //openProfilActivity();
                 // Tester nrecuperer username mel BDD
                 /* reff = FirebaseDatabase.getInstance().getReference("Users");
                 reff.addValueEventListener(new ValueEventListener() {
