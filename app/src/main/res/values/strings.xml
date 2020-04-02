@@ -2,4 +2,5 @@
     <string name="app_name">FirebaseSearch</string>
     <string name="place">Place</string>
     <string name="username">username</string>
+    <string name="title_activity_profile">Profile page</string>
 </resources>

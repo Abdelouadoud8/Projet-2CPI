@@ -1,9 +1,11 @@
 package com.example.projet_2cpi;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -31,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
     private EditText mSearchField;
     private ImageButton mSearchBtn;
     private RecyclerView mResultList;
+    // Essaye d'ouvrir la page profil
+    private Button open_profil_btn;
 
 
     private DatabaseReference mUserDatabase;
@@ -43,7 +47,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mUserDatabase = FirebaseDatabase.getInstance().getReference("Users");
-
+        //Button open profil page
+        open_profil_btn = findViewById(R.id.open_profile_btn);
+        open_profil_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openProfilActivity();
+            }
+        });
 
         DatabaseReference connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         connectedRef.addValueEventListener(new ValueEventListener() {
@@ -193,5 +204,10 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+    public void openProfilActivity(){
+        Intent intent = new Intent(this,profile.class);
+        startActivity(intent);
+    }
 }
 

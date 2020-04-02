@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.projet_2cpi.MainActivity;
+import com.example.projet_2cpi.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -59,13 +60,13 @@ public class profile extends AppCompatActivity {
         Fax_btn = (ImageButton) findViewById(R.id.fax_btn);
 
 
-        reff = FirebaseDatabase.getInstance().getReference().child("id").child(Child);
+        reff = FirebaseDatabase.getInstance().getReference().child("Users").child(Child);
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String username = dataSnapshot.child("username").getValue().toString();
+                String username = dataSnapshot.child("name").getValue().toString();
                 String poste = dataSnapshot.child("Poste").getValue().toString();
-                String picture_link = dataSnapshot.child("picture").getValue(String.class);
+                String picture_link = dataSnapshot.child("image").getValue(String.class);
                 Picasso.get().load(picture_link).into(Picture);
                 PhoneNumber = dataSnapshot.child("Contact").child("phone").getValue().toString();
                 FaxNumber = dataSnapshot.child("Contact").child("fax").getValue().toString();
@@ -108,7 +109,7 @@ public class profile extends AppCompatActivity {
         Dimanche_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                reff = FirebaseDatabase.getInstance().getReference().child("id").child(Child).child("Horaires");
+                reff = FirebaseDatabase.getInstance().getReference().child("Users").child(Child).child("Horaires");
                 reff.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -141,7 +142,7 @@ public class profile extends AppCompatActivity {
         Lundi_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                reff = FirebaseDatabase.getInstance().getReference().child("id").child(Child).child("Horaires");
+                reff = FirebaseDatabase.getInstance().getReference().child("Users").child(Child).child("Horaires");
                 reff.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -174,7 +175,7 @@ public class profile extends AppCompatActivity {
         Mardi_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                reff = FirebaseDatabase.getInstance().getReference().child("id").child(Child).child("Horaires");
+                reff = FirebaseDatabase.getInstance().getReference().child("Users").child(Child).child("Horaires");
                 reff.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -207,7 +208,7 @@ public class profile extends AppCompatActivity {
         Mercredi_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                reff = FirebaseDatabase.getInstance().getReference().child("id").child(Child).child("Horaires");
+                reff = FirebaseDatabase.getInstance().getReference().child("Users").child(Child).child("Horaires");
                 reff.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -240,7 +241,7 @@ public class profile extends AppCompatActivity {
         Jeudi_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                reff = FirebaseDatabase.getInstance().getReference().child("id").child(Child).child("Horaires");
+                reff = FirebaseDatabase.getInstance().getReference().child("Users").child(Child).child("Horaires");
                 reff.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
