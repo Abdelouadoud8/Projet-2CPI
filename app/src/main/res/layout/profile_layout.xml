@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:defaultFocusHighlightEnabled="true"
+    tools:context=".profile">
+
+    <ImageView
+        android:id="@+id/U_P_picture"
+        android:layout_width="198dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/ased1302" />
+
+    <ImageView
+        android:id="@+id/dayPicture"
+        android:layout_width="291dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:srcCompat="@drawable/matin" />
+
+    <ImageView
+        android:id="@+id/dayPicture2"
+        android:layout_width="328dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/soir" />
+
+    <TextView
+        android:id="@+id/poste"
+        android:layout_width="151dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginEnd="183dp"
+        android:fontFamily="@font/sarala"
+        android:text="@string/place"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="153dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:text="username"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="616dp"
+        android:layout_marginEnd="163dp"
+        android:text="Contact"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="107dp"
+        android:text="Horaires du travail"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="393dp"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <Button
+            android:id="@+id/Dimanche_btn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="DIMANCHE"
+            android:textColor="@android:color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Lundi_btn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="LUNDI"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Mardi_btn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="MARDI"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Mercredi_btn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="MERCREDI"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Jeudi_btn"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:hapticFeedbackEnabled="false"
+            android:text="JEUDI"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/email_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/phone_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:src="@drawable/phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/linkedin_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="linkedinClique"
+        android:src="@drawable/linkedin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fax_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:src="@drawable/fax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/matin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="220dp"
+        android:text="Matin :"
+        android:textColor="@color/Black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/soir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="133dp"
+        android:text="Soir :"
+        android:textColor="@color/Black"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/NB"
+        android:layout_width="329dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="160dp"
+        android:text="NB : cliquer sur les jours pour voir les horaires du travail"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,7 +34,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
     // FirebaseUI for Firebase Realtime Database
     implementation 'com.firebaseui:firebase-ui-database:6.2.0'
-
+    //Picasso Library
+    implementation 'com.squareup.picasso:picasso:2.71828'
     //Glide Library
     implementation 'com.github.bumptech.glide:glide:4.0.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0'
