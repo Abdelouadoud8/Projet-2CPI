@@ -2,11 +2,15 @@ package com.example.projet_2cpi;
 
 public class Users {
 
-    public String name, image, status;
+    public String name, image, status, genre;
 
     public Users(){
 
     }
+
+    public String getGenre(){ return genre; }
+
+    public void setGenre(String genre){this.genre = genre; }
 
     public String getName() {
         return name;
@@ -32,10 +36,11 @@ public class Users {
         this.status = status;
     }
 
-    public Users(String name, String image, String status) {
+    public Users(String name, String image, String status, String genre) {
         this.name = name;
         this.image = image;
         this.status = status;
+        this.genre = genre;
     }
 }
 

@@ -52,7 +52,12 @@ public class MainActivity extends AppCompatActivity {
         open_profil_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openProfilActivity();
+                if(RecyclerViewAdapter.getGENRE().equals("Person")){
+                    openProfilActivity();
+                }else if(RecyclerViewAdapter.getGENRE().equals("Place")){
+                    openPlaceActivity2();
+                }
+
             }
         });
 
@@ -207,6 +212,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openProfilActivity(){
         Intent intent = new Intent(this,profile.class);
+        startActivity(intent);
+    }
+
+    public void openPlaceActivity2(){
+        Intent intent = new Intent(this,place.class);
         startActivity(intent);
     }
 }

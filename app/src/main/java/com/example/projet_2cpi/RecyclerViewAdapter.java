@@ -25,7 +25,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.UsersViewHolder> {
 
-    private static String USERNAME;
+    private static String USERNAME,GENRE;
     private final List<Users> mData;
     Context context;
     DatabaseReference reff;
@@ -54,7 +54,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
             @Override
             public void onClick(View v) {
                 USERNAME = mData.get(position).getName();
-                Toast.makeText(v.getContext(),USERNAME,Toast.LENGTH_LONG).show();
+                GENRE = mData.get(position).getGenre();
+                Toast.makeText(v.getContext(),USERNAME + GENRE,Toast.LENGTH_LONG).show();
+
                 //openProfilActivity();
                 // Tester nrecuperer username mel BDD
                 /* reff = FirebaseDatabase.getInstance().getReference("Users");
@@ -82,5 +84,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
     public static String getUSERNAME(){
         return USERNAME;
     }
+    public static String getGENRE(){return GENRE;}
 }
 
