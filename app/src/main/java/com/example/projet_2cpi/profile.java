@@ -29,7 +29,7 @@ public class profile extends AppCompatActivity {
     ImageButton Email_btn, Phone_btn, Linkedin_btn, Fax_btn;
     Button Dimanche_btn, Lundi_btn, Mardi_btn, Mercredi_btn, Jeudi_btn;
     DatabaseReference reff;
-    String Child;
+    private static String Child;
     String PhoneNumber, FaxNumber, AdrEmail, AdrLinkedin;
 
     @Override
@@ -276,5 +276,9 @@ public class profile extends AppCompatActivity {
     public void linkedinClique(View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(AdrLinkedin));
         startActivity(browserIntent);
+    }
+
+    public static void setChild(String child){
+        Child = child;
     }
 }

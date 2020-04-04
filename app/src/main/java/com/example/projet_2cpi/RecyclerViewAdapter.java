@@ -84,6 +84,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
     public static String getUSERNAME(){
         return USERNAME;
     }
+    public static void setUSERNAME(String username){
+        USERNAME = username;
+    }
     public static String getGENRE(){return GENRE;}
 }
 

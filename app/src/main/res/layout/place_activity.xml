@@ -8,7 +8,7 @@
     tools:context=".place">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/descripton"
         android:layout_width="357dp"
         android:layout_height="237dp"
         android:layout_marginStart="10dp"
@@ -18,25 +18,6 @@
         app:layout_constraintHorizontal_bias="0.386"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/rectangle" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445"
-        app:srcCompat="@drawable/ellipse" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="316dp"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ellipse" />
 
     <TextView
         android:id="@+id/textView2"
@@ -56,7 +37,7 @@
         android:id="@+id/cycle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="204dp"
+        android:layout_marginTop="224dp"
         android:layout_marginEnd="20dp"
         android:fontFamily="@font/sarala"
         android:text="Cycle Préparatoire"
@@ -67,19 +48,51 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/go_profile_btn"
         android:layout_width="358dp"
         android:layout_height="79dp"
-        android:background="@drawable/aced_btn"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="569dp" />
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="83dp"
+        android:background="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/username2"
+        android:layout_width="190dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="96dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/username"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="67dp"
-        android:layout_height="55dp"
-        app:srcCompat="@drawable/ased1302"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="579dp" />
+        android:id="@+id/image_btn"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ased1302" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="52dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="103dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/arrow" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
