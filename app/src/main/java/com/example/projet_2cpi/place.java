@@ -19,6 +19,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 public class place extends AppCompatActivity {
     TextView Cycle, Username;
@@ -37,8 +38,8 @@ public class place extends AppCompatActivity {
         Cycle = (TextView)findViewById(R.id.cycle);
         Username = (TextView)findViewById(R.id.username2);
         //Image Views
-        /* Description = (ImageView)findViewById(R.id.descripton);
-        Image_btn = (ImageView)findViewById(R.id.image_btn); */
+        Description = (ImageView)findViewById(R.id.descripton);
+        Image_btn = (ImageView)findViewById(R.id.image_btn);
         //Buttons
         Go_profile_btn = (ImageButton) findViewById(R.id.go_profile_btn);
 
@@ -51,8 +52,8 @@ public class place extends AppCompatActivity {
                 String username = dataSnapshot.child(employe).child("name").getValue().toString();
                 make_child = username;
                 //String poste = dataSnapshot.child("Users").child(Child).child("Poste").getValue().toString();
-                /* String picture_link = dataSnapshot.child("image").getValue(String.class);
-                Picasso.get().load(picture_link).into(Picture); */
+                String picture_link = dataSnapshot.child(Child).child("description").getValue(String.class);
+                Picasso.get().load(picture_link).into(Description);
 
                 Cycle.setText(cycle);
                 Username.setText(username);
