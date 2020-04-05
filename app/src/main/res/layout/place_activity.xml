@@ -85,4 +85,65 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/ased1302" />
 
+    <ImageView
+        android:id="@+id/place_icon"
+        android:layout_width="120dp"
+        android:layout_height="141dp"
+        app:srcCompat="@drawable/place"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <ImageButton
+        android:id="@+id/email_btn2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/phone_btn2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:src="@drawable/phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/linkedin_btn2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="linkedinClique"
+        android:src="@drawable/linkedin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fax_btn2"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:src="@drawable/fax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
