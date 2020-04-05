@@ -55,7 +55,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
             public void onClick(View v) {
                 USERNAME = mData.get(position).getName();
                 GENRE = mData.get(position).getGenre();
-                Toast.makeText(v.getContext(),USERNAME + GENRE,Toast.LENGTH_LONG).show();
+                Toast.makeText(v.getContext(),USERNAME + " " +
+                        "choisis!\nPour consulter le profil cliquer sur le button \nALLER VERS LE PROFIL",Toast.LENGTH_LONG).show();
 
                 //openProfilActivity();
                 // Tester nrecuperer username mel BDD

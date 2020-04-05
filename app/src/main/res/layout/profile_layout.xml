@@ -19,8 +19,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ased1302" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/dayPicture"
@@ -31,8 +30,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:srcCompat="@drawable/matin" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/dayPicture2"
@@ -42,8 +40,7 @@
         android:layout_marginBottom="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/soir" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/poste"
@@ -53,7 +50,6 @@
         android:layout_marginTop="215dp"
         android:layout_marginEnd="183dp"
         android:fontFamily="@font/sarala"
-        android:text="@string/place"
         android:textAlignment="center"
         android:textColor="@color/Black"
         android:textSize="10sp"
@@ -70,7 +66,6 @@
         android:layout_marginTop="170dp"
         android:layout_marginEnd="153dp"
         android:fontFamily="@font/comfortaa_light"
-        android:text="username"
         android:textAlignment="center"
         android:textColor="@color/Black"
         android:textSize="18sp"
@@ -242,7 +237,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="250dp"
-        android:text="Matin :"
         android:textColor="@color/Black"
         android:textSize="18dp"
         android:textStyle="bold"
@@ -255,7 +249,6 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="153dp"
-        android:text="Soir :"
         android:textColor="@color/Black"
         android:textSize="18dp"
         android:textStyle="bold"
