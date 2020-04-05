@@ -25,11 +25,11 @@ import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 public class place extends AppCompatActivity {
-    TextView Cycle, Username;
-    ImageView Description, Image_btn;
+    TextView Cycle, Username, NoEmployer,EmployerStat;
+    ImageView Description, Image_btn,ImageForButton;
     ImageButton Go_profile_btn,Email_btn, Phone_btn, Linkedin_btn, Fax_btn;;
     DatabaseReference reff;
-    String Child, make_child;
+    String Child, make_child, Employe;
     String PhoneNumber, FaxNumber, AdrEmail, AdrLinkedin;
 
     @Override
@@ -41,9 +41,12 @@ public class place extends AppCompatActivity {
         //Text Views
         Cycle = (TextView)findViewById(R.id.cycle);
         Username = (TextView)findViewById(R.id.username2);
+        NoEmployer =(TextView)findViewById(R.id.noEmployer);
+        EmployerStat =(TextView)findViewById(R.id.employerStat);
         //Image Views
         Description = (ImageView)findViewById(R.id.descripton);
         Image_btn = (ImageView)findViewById(R.id.image_btn);
+        ImageForButton = (ImageView)findViewById(R.id.ImageForBtn);
         //ImageButtons
         Go_profile_btn = (ImageButton) findViewById(R.id.go_profile_btn);
         Email_btn = (ImageButton) findViewById(R.id.email_btn2);
@@ -58,15 +61,44 @@ public class place extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 String cycle = dataSnapshot.child(Child).child("cycle").getValue().toString();
                 String employe = dataSnapshot.child(Child).child("employe").getValue().toString();
-                String username = dataSnapshot.child(employe).child("name").getValue().toString();
-                make_child = username;
-                PhoneNumber = dataSnapshot.child(employe).child("Contact").child("phone").getValue().toString();
-                FaxNumber = dataSnapshot.child(employe).child("Contact").child("fax").getValue().toString();
-                AdrEmail = dataSnapshot.child(employe).child("Contact").child("Email").getValue().toString();
-                AdrLinkedin = dataSnapshot.child(employe).child("Contact").child("linkedin").getValue().toString();
+                //String username = dataSnapshot.child(employe).child("name").getValue().toString();
+                Employe = employe;
+                make_child = employe;
 
                 Cycle.setText(cycle);
-                Username.setText(username);
+                if(!Employe.equals("Null")){
+                    Username.setText(employe);
+                    String picture_link = dataSnapshot.child(employe).child("image").getValue(String.class);
+                    Picasso.get().load(picture_link).into(Image_btn);
+                    String picture2_link = dataSnapshot.child("imageforbutton").getValue(String.class);
+                    Picasso.get().load(picture2_link).into(ImageForButton);
+                    String picture3_link = dataSnapshot.child(employe).child("image").getValue(String.class);
+                    Picasso.get().load(picture3_link).into(Image_btn);
+                    EmployerStat.setText("Employer");
+                }else{
+                    NoEmployer.setText("Aller vers cet endroit?");
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+        reff.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if(!Employe.equals("Null")){
+                    PhoneNumber = dataSnapshot.child(Employe).child("Contact").child("phone").getValue().toString();
+                    FaxNumber = dataSnapshot.child(Employe).child("Contact").child("fax").getValue().toString();
+                    AdrEmail = dataSnapshot.child(Employe).child("Contact").child("Email").getValue().toString();
+                    AdrLinkedin = dataSnapshot.child(Employe).child("Contact").child("linkedin").getValue().toString();
+                }else{
+                    PhoneNumber = "Null";
+                    FaxNumber = "Null";
+                    AdrEmail = "Null";
+                    AdrLinkedin = "Null";
+                }
             }
 
             @Override
@@ -75,14 +107,16 @@ public class place extends AppCompatActivity {
             }
         });
 
-        Go_profile_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                profile.setChild(make_child);
-                RecyclerViewAdapter.setUSERNAME(make_child);
-                openProfilActivity2();
-            }
-        });
+            Go_profile_btn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (!make_child.equals("Null")) {
+                        profile.setChild(make_child);
+                        RecyclerViewAdapter.setUSERNAME(make_child);
+                        openProfilActivity2();
+                    }
+                }
+            });
 
         //Social media buttons
         Email_btn.setOnClickListener(new View.OnClickListener() {
