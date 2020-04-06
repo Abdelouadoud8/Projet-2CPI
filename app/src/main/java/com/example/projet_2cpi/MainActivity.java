@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mUserDatabase = FirebaseDatabase.getInstance().getReference("Users");
         //Button open profil page
-        open_profil_btn = findViewById(R.id.open_profile_btn);
+        /* open_profil_btn = findViewById(R.id.open_profile_btn);
         open_profil_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             }
-        });
+        }); */
 
         DatabaseReference connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         connectedRef.addValueEventListener(new ValueEventListener() {
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void openProfilActivity(){
+    /* public void openProfilActivity(){
         Intent intent = new Intent(this,profile.class);
         startActivity(intent);
     }
@@ -218,6 +218,6 @@ public class MainActivity extends AppCompatActivity {
     public void openPlaceActivity2(){
         Intent intent = new Intent(this,place.class);
         startActivity(intent);
-    }
+    } */
 }
 

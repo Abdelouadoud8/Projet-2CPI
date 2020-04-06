@@ -55,8 +55,17 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
             public void onClick(View v) {
                 USERNAME = mData.get(position).getName();
                 GENRE = mData.get(position).getGenre();
-                Toast.makeText(v.getContext(),USERNAME + " " +
-                        "choisis!\nPour consulter le profil cliquer sur le button \nALLER VERS LE PROFIL",Toast.LENGTH_LONG).show();
+
+                if(RecyclerViewAdapter.getGENRE().equals("Person")){
+                    Intent intent = new Intent(v.getContext(),profile.class);
+                    v.getContext().startActivity(intent);
+                }else if(RecyclerViewAdapter.getGENRE().equals("Place")){
+                    Intent intent = new Intent(v.getContext(),place.class);
+                    v.getContext().startActivity(intent);
+                }
+
+                /* Toast.makeText(v.getContext(),USERNAME + " " +
+                        "choisis!\nPour consulter le profil cliquer sur le button \nALLER VERS LE PROFIL",Toast.LENGTH_LONG).show(); */
 
                 //openProfilActivity();
                 // Tester nrecuperer username mel BDD

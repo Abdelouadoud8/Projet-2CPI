@@ -49,12 +49,4 @@
         android:layout_marginBottom="5dp">
     </androidx.recyclerview.widget.RecyclerView>
 
-    <Button
-        android:id="@+id/open_profile_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100sp"
-        android:layout_marginTop="63sp"
-        android:text="Aller vers le profil" />
-
 </RelativeLayout>
