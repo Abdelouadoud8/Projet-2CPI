@@ -192,9 +192,27 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+        switch (menuItem.getItemId()){
+            case R.id.nav_home:
+                break;
+            case R.id.nav_how:
+                /*  Intent intent = new Intent(MainActivity.this,HomItWorks.class);
+                startActivity(intent); */
+                break;
+            case R.id.nav_language:
+                break;
+            case R.id.nav_about:
+                break;
+            case R.id.nav_contact:
+                break;
+            case R.id.nav_share:
+                break;
+            case R.id.nave_rate:
+                break;
+        }
+        drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
-
 }
 

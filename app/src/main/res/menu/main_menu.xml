@@ -12,6 +12,11 @@
             android:icon="@drawable/ic_help_black_24dp"
             android:title="How it works" />
 
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="Choose language" />
+
 
     </group>
 
