@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_how"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="How it works" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="About us" />
+
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/ic_contact_black_24dp"
+                    android:title="Contact us" />
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Sharing">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:title="Share the app" />
+                <item
+                    android:id="@+id/nave_rate"
+                    android:icon="@drawable/ic_rate_black_24dp"
+                    android:title="Rate us" />
+            </group>
+        </menu>
+    </item>
+</menu>

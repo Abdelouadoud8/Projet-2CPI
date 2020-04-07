@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,12 +13,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,13 +35,15 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private EditText mSearchField;
     private ImageButton mSearchBtn;
     private RecyclerView mResultList;
-    // Essaye d'ouvrir la page profil
-    private Button open_profil_btn;
+    //Variables for nav-bar
+    DrawerLayout drawerLayout;
+    NavigationView navigationView;
+    Toolbar toolbar;
 
 
     private DatabaseReference mUserDatabase;
@@ -46,20 +55,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mUserDatabase = FirebaseDatabase.getInstance().getReference("Users");
-        //Button open profil page
-        /* open_profil_btn = findViewById(R.id.open_profile_btn);
-        open_profil_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(RecyclerViewAdapter.getGENRE().equals("Person")){
-                    openProfilActivity();
-                }else if(RecyclerViewAdapter.getGENRE().equals("Place")){
-                    openPlaceActivity2();
-                }
+        /*----------------------Hooks----------------------*/
+        drawerLayout =findViewById(R.id.drawer_layout);
+        navigationView =findViewById(R.id.nav_view);
+        toolbar =(Toolbar) findViewById(R.id.toolbar);
 
-            }
-        }); */
+        /*--------------------------SEARCH--------------------------*/
+
+        mUserDatabase = FirebaseDatabase.getInstance().getReference("Users");
 
         DatabaseReference connectedRef = FirebaseDatabase.getInstance().getReference(".info/connected");
         connectedRef.addValueEventListener(new ValueEventListener() {
@@ -87,56 +90,6 @@ public class MainActivity extends AppCompatActivity {
         mResultList = (RecyclerView) findViewById(R.id.result_list);
 
         result = new ArrayList<Users>();
-        //result.add(new Users("Hiver", "Vacances de février durent 2 semaines", "R.drawable.hiver"));
-        //mResultList.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-
-
-
-
-
-
-        // mResultList.setHasFixedSize(true);
-
-/*
-        firebaseSearchQuery = mUserDatabase.orderByChild("name").equalTo("Djouad Kawther");
-        //.startAt("Djouad Kawth").endAt("Djouad Kawth" + "\uf8ff");
-
-
-        FirebaseRecyclerOptions<Users> options =
-                new FirebaseRecyclerOptions.Builder<Users>()
-                        .setQuery(firebaseSearchQuery, Users.class)
-                        .build();
-        firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Users, UsersViewHolder>
-                (options) {
-            @Override
-            public UsersViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-                View itemView = LayoutInflater.from(parent.getContext())
-                        .inflate(R.layout.list_layout, parent, false);
-                Toast.makeText(MainActivity.this, "create", Toast.LENGTH_SHORT).show();
-
-                return new UsersViewHolder(itemView);
-            }
-
-            @Override
-            protected void onBindViewHolder(UsersViewHolder holder, int position, Users model) {
-                holder.setDetails(getApplicationContext(),model.name,model.status,model.image);
-                Toast.makeText(MainActivity.this, "bind", Toast.LENGTH_SHORT).show();
-                notifyDataSetChanged();
-                //firebaseRecyclerAdapter.notifyDataSetChanged();
-            }
-            @Override
-            public int getItemCount() {
-                return  0;
-            }
-
-        };
-
-        mResultList.setAdapter(firebaseRecyclerAdapter);
-
-
-
-*/
-
         mSearchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -164,13 +117,28 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 });
-                //result.add(new Users("o","k","k"));
-                //mResultList.setAdapter(new RecyclerViewAdapter(result));
             }
         });
-        // result.add(new Users("o","k","k"));
-        // mResultList.setLayoutManager(new LinearLayoutManager(this));
-        // mResultList.setAdapter(new RecyclerViewAdapter(result));
+
+        /*--------------------------SEARCH--------------------------*/
+
+        /*--------------------------NAV-BAR--------------------------*/
+
+            //Toolbar
+            setSupportActionBar(toolbar);
+
+
+            //Navigation drawer menu
+            navigationView.bringToFront();
+            ActionBarDrawerToggle toggle=new
+                    ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
+            drawerLayout.addDrawerListener(toggle);
+            toggle.syncState();
+            navigationView.setNavigationItemSelectedListener(this);
+            navigationView.setCheckedItem(R.id.nav_home);
+
+        /*--------------------------NAV-BAR--------------------------*/
+
     }
 
 
@@ -184,6 +152,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         // firebaseRecyclerAdapter.stopListening();
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
     }
     // View Holder Class
 
@@ -209,15 +182,19 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
-    /* public void openProfilActivity(){
-        Intent intent = new Intent(this,profile.class);
-        startActivity(intent);
+    //for NAV-bar
+    @Override
+    public void onBackPressed() {
+        if (drawerLayout.isDrawerOpen(GravityCompat.START)){
+            drawerLayout.closeDrawer(GravityCompat.START);
+        }else {
+            super.onBackPressed();
+        }
     }
 
-    public void openPlaceActivity2(){
-        Intent intent = new Intent(this,place.class);
-        startActivity(intent);
-    } */
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+        return true;
+    }
+
 }
 

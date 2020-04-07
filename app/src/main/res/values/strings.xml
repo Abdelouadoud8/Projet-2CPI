@@ -1,7 +1,9 @@
 <resources>
-    <string name="app_name">FirebaseSearch</string>
+    <string name="app_name">Guiddini</string>
     <string name="place">Place</string>
     <string name="username">username</string>
     <string name="title_activity_profile">Profile page</string>
     <string name="title_activity_place">Place page</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 </resources>
