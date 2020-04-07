@@ -2,6 +2,7 @@ package com.example.projet_2cpi;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -25,7 +26,7 @@ import com.squareup.picasso.Picasso;
 
 public class profile extends AppCompatActivity {
     TextView Username, Poste, Matin, Soir, NB;
-    ImageView Picture, DayPicture,DayPicture2;
+    ImageView Picture, DayPicture, DayPicture2;
     ImageButton Email_btn, Phone_btn, Linkedin_btn, Fax_btn;
     Button Dimanche_btn, Lundi_btn, Mardi_btn, Mercredi_btn, Jeudi_btn;
     DatabaseReference reff;
@@ -39,21 +40,21 @@ public class profile extends AppCompatActivity {
 
         Child = RecyclerViewAdapter.getUSERNAME();
         //Text Views
-        Username =(TextView)findViewById(R.id.username);
-        Poste =(TextView)findViewById(R.id.poste);
-        Matin =(TextView)findViewById(R.id.matin);
-        Soir = (TextView)findViewById(R.id.soir);
-        NB = (TextView)findViewById(R.id.NB);
+        Username = (TextView) findViewById(R.id.username);
+        Poste = (TextView) findViewById(R.id.poste);
+        Matin = (TextView) findViewById(R.id.matin);
+        Soir = (TextView) findViewById(R.id.soir);
+        NB = (TextView) findViewById(R.id.NB);
         //Image View
-        Picture = (ImageView)findViewById(R.id.U_P_picture);
-        DayPicture = (ImageView)findViewById(R.id.dayPicture);
-        DayPicture2 = (ImageView)findViewById(R.id.dayPicture2);
+        Picture = (ImageView) findViewById(R.id.U_P_picture);
+        DayPicture = (ImageView) findViewById(R.id.dayPicture);
+        DayPicture2 = (ImageView) findViewById(R.id.dayPicture2);
         //Buttons
-        Dimanche_btn = (Button)findViewById(R.id.Dimanche_btn);
-        Lundi_btn = (Button)findViewById(R.id.Lundi_btn);
-        Mardi_btn = (Button)findViewById(R.id.Mardi_btn);
-        Mercredi_btn = (Button)findViewById(R.id.Mercredi_btn);
-        Jeudi_btn = (Button)findViewById(R.id.Jeudi_btn);
+        Dimanche_btn = (Button) findViewById(R.id.Dimanche_btn);
+        Lundi_btn = (Button) findViewById(R.id.Lundi_btn);
+        Mardi_btn = (Button) findViewById(R.id.Mardi_btn);
+        Mercredi_btn = (Button) findViewById(R.id.Mercredi_btn);
+        Jeudi_btn = (Button) findViewById(R.id.Jeudi_btn);
         //Image Buttons
         Email_btn = (ImageButton) findViewById(R.id.email_btn);
         Phone_btn = (ImageButton) findViewById(R.id.phone_btn);
@@ -84,27 +85,6 @@ public class profile extends AppCompatActivity {
             }
         });
 
-        //Social media buttons
-        Email_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(profile.this,"Email : " + AdrEmail,Toast.LENGTH_LONG).show();
-            }
-        });
-
-        Phone_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(profile.this,"Phone : " + PhoneNumber,Toast.LENGTH_LONG).show();
-            }
-        });
-
-        Fax_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(profile.this,"Fax : " + FaxNumber,Toast.LENGTH_LONG).show();
-            }
-        });
 
         //Days Buttons
         Dimanche_btn.setOnClickListener(new View.OnClickListener() {
@@ -119,20 +99,21 @@ public class profile extends AppCompatActivity {
                         Soir.setText("Soir");
                         String horaire = dataSnapshot.child("Dimanche").child("matin").getValue().toString();
                         //Si travail le matin
-                        if(horaire.equalsIgnoreCase("Oui")){
+                        if (horaire.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("matin").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture);
                         }
                         String horaire2 = dataSnapshot.child("Dimanche").child("soir").getValue().toString();
                         // Si travail le soir
-                        if(horaire2.equalsIgnoreCase("Oui")){
+                        if (horaire2.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
-                        }else{
+                        } else {
                             String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
+
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
                     }
@@ -152,20 +133,21 @@ public class profile extends AppCompatActivity {
                         Soir.setText("Soir");
                         String horaire = dataSnapshot.child("Lundi").child("matin").getValue().toString();
                         //Si travail le matin
-                        if(horaire.equalsIgnoreCase("Oui")){
+                        if (horaire.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("matin").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture);
                         }
                         String horaire2 = dataSnapshot.child("Lundi").child("soir").getValue().toString();
                         // Si travail le soir
-                        if(horaire2.equalsIgnoreCase("Oui")){
+                        if (horaire2.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
-                        }else{
+                        } else {
                             String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
+
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
                     }
@@ -185,20 +167,21 @@ public class profile extends AppCompatActivity {
                         Soir.setText("Soir");
                         String horaire = dataSnapshot.child("Mardi").child("matin").getValue().toString();
                         //Si travail le matin
-                        if(horaire.equalsIgnoreCase("Oui")){
+                        if (horaire.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("matin").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture);
                         }
                         String horaire2 = dataSnapshot.child("Mardi").child("soir").getValue().toString();
                         // Si travail le soir
-                        if(horaire2.equalsIgnoreCase("Oui")){
+                        if (horaire2.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
-                        }else{
+                        } else {
                             String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
+
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
                     }
@@ -218,20 +201,21 @@ public class profile extends AppCompatActivity {
                         Soir.setText("Soir");
                         String horaire = dataSnapshot.child("Mercredi").child("matin").getValue().toString();
                         //Si travail le matin
-                        if(horaire.equalsIgnoreCase("Oui")){
+                        if (horaire.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("matin").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture);
                         }
                         String horaire2 = dataSnapshot.child("Mercredi").child("soir").getValue().toString();
                         // Si travail le soir
-                        if(horaire2.equalsIgnoreCase("Oui")){
+                        if (horaire2.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
-                        }else{
+                        } else {
                             String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
+
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
                     }
@@ -251,20 +235,21 @@ public class profile extends AppCompatActivity {
                         Soir.setText("Soir");
                         String horaire = dataSnapshot.child("Jeudi").child("matin").getValue().toString();
                         //Si travail le matin
-                        if(horaire.equalsIgnoreCase("Oui")){
+                        if (horaire.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("matin").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture);
                         }
                         String horaire2 = dataSnapshot.child("Jeudi").child("soir").getValue().toString();
                         // Si travail le soir
-                        if(horaire2.equalsIgnoreCase("Oui")){
+                        if (horaire2.equalsIgnoreCase("Oui")) {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
-                        }else{
+                        } else {
                             String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
+
                     @Override
                     public void onCancelled(@NonNull DatabaseError databaseError) {
                     }
@@ -273,12 +258,27 @@ public class profile extends AppCompatActivity {
         });
     }
 
-    public void linkedinClique(View view){
+    public void linkedinClique(View view) {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(AdrLinkedin));
         startActivity(browserIntent);
     }
 
-    public static void setChild(String child){
+    public void EmailClique(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(AdrEmail));
+        startActivity(browserIntent);
+    }
+
+    public void PhoneClique(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(PhoneNumber));
+        startActivity(browserIntent);
+    }
+
+    public void FaxClique(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(FaxNumber));
+        startActivity(browserIntent);
+    }
+
+    public static void setChild(String child) {
         Child = child;
     }
 }

@@ -187,6 +187,7 @@
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
+        android:onClick="EmailClique"
         android:src="@drawable/email"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -200,6 +201,7 @@
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
+        android:onClick="PhoneClique"
         android:src="@drawable/phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -227,6 +229,7 @@
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
+        android:onClick="PhoneClique"
         android:src="@drawable/fax"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
