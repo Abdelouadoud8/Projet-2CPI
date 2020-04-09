@@ -1,9 +1,29 @@
 <resources>
-    <string name="app_name"> </string>
+    <string name="app_name" translatable="false"> </string>
     <string name="place">Place</string>
-    <string name="username">username</string>
-    <string name="title_activity_profile">Profile page</string>
-    <string name="title_activity_place">Place page</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="username" translatable="false">username</string>
+    <string name="title_activity_profile" translatable="false">Profile page</string>
+    <string name="title_activity_place" translatable="false">Place page</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="search_here">Search here</string>
+    <string name="home">Home</string>
+    <string name="how_it_works">How it works</string>
+    <string name="choose_language">Choose language</string>
+    <string name="communicate">Communicate</string>
+    <string name="about_us">About us</string>
+    <string name="contact_us">Contact us</string>
+    <string name="sharing">Sharing</string>
+    <string name="share_the_app">Share the app</string>
+    <string name="rate_us">Rate us</string>
+    <string name="nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail">Note: click on the days to see the working hours</string>
+    <string name="jeudi">Thursday</string>
+    <string name="mercredi">Wednesday</string>
+    <string name="mardi">Thuesday</string>
+    <string name="lundi">Monday</string>
+    <string name="dimanche">Sunday</string>
+    <string name="horaires_du_travail">Working hours</string>
+    <string name="contact">Contact</string>
+    <string name="la_partie_description_n_est_pas_encore_termin">la partie description n\'est pas encore terminé</string>
+    <string name="description_de_la_place">Description of the place</string>
 </resources>

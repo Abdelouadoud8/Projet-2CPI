@@ -1,7 +1,11 @@
 package com.example.projet_2cpi;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.os.Bundle;
 
 import android.view.MenuItem;
@@ -15,6 +19,7 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
@@ -34,6 +39,7 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -54,7 +60,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        loadLocale();
         setContentView(R.layout.activity_main);
+
+
         /*----------------------Hooks----------------------*/
         drawerLayout =findViewById(R.id.drawer_layout);
         navigationView =findViewById(R.id.nav_view);
@@ -124,18 +133,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         /*--------------------------NAV-BAR--------------------------*/
 
-            //Toolbar
-            setSupportActionBar(toolbar);
+        //Toolbar
+        setSupportActionBar(toolbar);
 
 
-            //Navigation drawer menu
-            navigationView.bringToFront();
-            ActionBarDrawerToggle toggle=new
-                    ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
-            drawerLayout.addDrawerListener(toggle);
-            toggle.syncState();
-            navigationView.setNavigationItemSelectedListener(this);
-            navigationView.setCheckedItem(R.id.nav_home);
+        //Navigation drawer menu
+        navigationView.bringToFront();
+        ActionBarDrawerToggle toggle=new
+                ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.navigation_drawer_open,R.string.navigation_drawer_close);
+        drawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
+        navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setCheckedItem(R.id.nav_home);
 
         /*--------------------------NAV-BAR--------------------------*/
 
@@ -201,7 +210,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent); */
                 break;
             case R.id.nav_language:
-                break;
+                showChangeLanguageDialogue();
             case R.id.nav_about:
                 break;
             case R.id.nav_contact:
@@ -213,6 +222,47 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void showChangeLanguageDialogue() {
+        final String [] listItems={"Français","English","عربي"};
+        AlertDialog.Builder mBuilder=new AlertDialog.Builder(MainActivity.this);
+        mBuilder.setTitle("choose language");
+        mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        if (i == 0) {
+                            setLocale("fr");
+                            recreate();
+                        } else if (i == 1) {
+                            setLocale("en");
+                            recreate();
+                        } else if (i == 2) {
+                            setLocale("ar");
+                            recreate();
+                        }
+                        dialogInterface.dismiss();
+                    }
+                }
+        );
+        AlertDialog mDialog=mBuilder.create();
+        mDialog.show();
+    }
+
+    private void setLocale(String langue) {
+        Locale locale=new Locale(langue);
+        Locale.setDefault(locale);
+        Configuration config=new Configuration();
+        config.locale=locale;
+        getBaseContext().getResources().updateConfiguration(config,getBaseContext().getResources().getDisplayMetrics());
+        SharedPreferences.Editor editor=getSharedPreferences("Settings",MODE_PRIVATE).edit();
+        editor.putString("Ma langue",langue);
+        editor.apply();
+    }
+    public void loadLocale(){
+        SharedPreferences pref=getSharedPreferences("Settings", Activity.MODE_PRIVATE);
+        String langue=pref.getString("Ma langue","");
+        setLocale(langue);
     }
 }
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">
+    </string>
+    <string name="place">المكان</string>
+    <string name="search_here">ابحث هنا</string>
+    <string name="home">الرئيسي</string>
+    <string name="how_it_works">كيف يعمل التطبيق</string>
+    <string name="choose_language">اختيار اللغه</string>
+    <string name="about_us">من نحن</string>
+    <string name="contact_us">للتواصل معنا</string>
+    <string name="sharing">مشاركه</string>
+    <string name="share_the_app">مشاركه التطبيق</string>
+    <string name="rate_us">تقييم التطبيق</string>
+    <string name="communicate">التواصل</string>
+    <string name="nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail">ملحوظة: انقر على الأيام لمعرفة ساعات العمل</string>
+    <string name="jeudi">الخميس</string>
+    <string name="mercredi">الاربعاء</string>
+    <string name="mardi">الثلاثاء</string>
+    <string name="lundi">الاثنين</string>
+    <string name="dimanche">الاحد</string>
+    <string name="horaires_du_travail">ساعات العمل</string>
+    <string name="contact">للتواصل</string>
+    <string name="la_partie_description_n_est_pas_encore_termin">la partie description n\'est pas encore terminé</string>
+    <string name="description_de_la_place">وصف المكان</string>
+</resources>
+

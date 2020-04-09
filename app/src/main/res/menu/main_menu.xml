@@ -5,49 +5,49 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_home_black_24dp"
-            android:title="Home" />
+            android:title="@string/home" />
 
         <item
             android:id="@+id/nav_how"
             android:icon="@drawable/ic_help_black_24dp"
-            android:title="How it works" />
+            android:title="@string/how_it_works" />
 
         <item
             android:id="@+id/nav_language"
             android:icon="@drawable/ic_language_black_24dp"
-            android:title="Choose language" />
+            android:title="@string/choose_language" />
 
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/communicate">
         <menu>
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_about"
                     android:icon="@drawable/ic_info_black_24dp"
-                    android:title="About us" />
+                    android:title="@string/about_us" />
 
                 <item
                     android:id="@+id/nav_contact"
                     android:icon="@drawable/ic_contact_black_24dp"
-                    android:title="Contact us" />
+                    android:title="@string/contact_us" />
             </group>
         </menu>
 
     </item>
 
-    <item android:title="Sharing">
+    <item android:title="@string/sharing">
         <menu>
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_share"
                     android:icon="@drawable/ic_share_black_24dp"
-                    android:title="Share the app" />
+                    android:title="@string/share_the_app" />
                 <item
                     android:id="@+id/nave_rate"
                     android:icon="@drawable/ic_rate_black_24dp"
-                    android:title="Rate us" />
+                    android:title="@string/rate_us" />
             </group>
         </menu>
     </item>

@@ -50,7 +50,7 @@
             android:background="@drawable/search_layout"
             android:ems="10"
             android:fontFamily="@font/nunito_semibold"
-            android:hint="Search here"
+            android:hint="@string/search_here"
             android:inputType="textPersonName"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
@@ -67,7 +67,7 @@
             android:layout_alignBottom="@+id/search_field"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="30dp"
-            android:background="@android:color/background_light"
+            android:background="#00FFFFFF"
             app:srcCompat="@mipmap/search_button" />
 
         <androidx.recyclerview.widget.RecyclerView
