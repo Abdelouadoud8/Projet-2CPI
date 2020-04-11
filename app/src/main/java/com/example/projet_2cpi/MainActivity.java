@@ -1,11 +1,24 @@
 package com.example.projet_2cpi;
 
+import android.Manifest;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.os.Bundle;
+// activation
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 
 import android.view.MenuItem;
@@ -22,6 +35,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -42,7 +57,7 @@ import java.util.List;
 import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-
+    static final int REQUEST_CODE = 123;
     private EditText mSearchField;
     private ImageButton mSearchBtn;
     private RecyclerView mResultList;
@@ -50,6 +65,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
+
 
 
     private DatabaseReference mUserDatabase;
@@ -62,6 +78,29 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         loadLocale();
         setContentView(R.layout.activity_main);
+
+        /*----------------------Autorisations----------------------*/
+        if (ContextCompat.checkSelfPermission(MainActivity.this,
+                Manifest.permission.ACCESS_FINE_LOCATION) + ContextCompat.checkSelfPermission(MainActivity.this,
+                Manifest.permission.CAMERA)!= PackageManager.PERMISSION_GRANTED){
+            if (ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this,
+                    Manifest.permission.ACCESS_FINE_LOCATION) || ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this,
+                    Manifest.permission.CAMERA) ){
+                ActivityCompat.requestPermissions(MainActivity.this,
+                        new String[]{
+                                Manifest.permission.ACCESS_FINE_LOCATION,
+                                Manifest.permission.CAMERA
+                        }, 1);
+
+            }else{
+                ActivityCompat.requestPermissions(MainActivity.this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION,
+                                Manifest.permission.CAMERA
+                        }, 1);
+            }
+        }
+
+        /*----------------------Autorisations----------------------*/
 
 
         /*----------------------Hooks----------------------*/
@@ -249,6 +288,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mDialog.show();
     }
 
+    //for language button
     private void setLocale(String langue) {
         Locale locale=new Locale(langue);
         Locale.setDefault(locale);
@@ -263,6 +303,37 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         SharedPreferences pref=getSharedPreferences("Settings", Activity.MODE_PRIVATE);
         String langue=pref.getString("Ma langue","");
         setLocale(langue);
+    }
+
+    //For Autorisations
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case 1: {
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    if ((ContextCompat.checkSelfPermission(MainActivity.this,
+                            Manifest.permission.ACCESS_FINE_LOCATION)  == PackageManager.PERMISSION_GRANTED)
+                            && (ContextCompat.checkSelfPermission(MainActivity.this,
+                            Manifest.permission.CAMERA)  == PackageManager.PERMISSION_GRANTED)) {
+                        Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
+                    }
+                    else{
+                        passto();
+
+                    }
+                }
+                else{
+                    passto();
+                }
+                return;
+            }
+
+        }
+    }
+    private void passto(){
+        Intent intent = new Intent(this, activation.class);
+        startActivity(intent);
     }
 }
 
