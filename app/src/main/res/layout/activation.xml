@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/button2"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="-370dp"
+        android:layout_marginBottom="-400dp"
         android:background="@drawable/button"
         android:text="Activer la caméra"
         android:textColor="#ffffff" />
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
-        android:layout_marginTop="394dp"
+        android:layout_marginTop="425dp"
         android:background="@drawable/button"
         android:text="Activer la localisation"
         android:textColor="#ffffff" />

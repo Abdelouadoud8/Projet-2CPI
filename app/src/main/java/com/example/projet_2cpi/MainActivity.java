@@ -257,7 +257,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_share:
                 break;
             case R.id.nave_rate:
-                break;
+                Intent intent = new Intent(MainActivity.this,Rating.class);
+                startActivity(intent);
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

@@ -29,6 +29,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activation" />
+        <activity android:name=".Rating" />
     </application>
 
 </manifest>
