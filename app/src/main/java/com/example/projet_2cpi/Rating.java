@@ -78,15 +78,13 @@ public class Rating extends AppCompatActivity {
                     starOne.startAnimation(starAnim);
                     starOne.animate().alpha(1).setDuration(300).start();
                     btnfeedback.startAnimation(btt);
-
-
-                    resultrate.setText("Just so so");
-                } else if (answerValue.equals("2")) {
+                    resultrate.setText("Really bad!");
+                } else if (answerValue.equals("2") || answerValue.equals("2")) {
                     starOne.setImageResource(R.drawable.star2);
                     starOne.animate().alpha(1).setDuration(300).start();
                     starOne.startAnimation(starAnim);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Just so so");
+                    resultrate.setText("Not that good!");
                 } else if (answerValue.equals("3")) {
                     starOne.setImageResource(R.drawable.star3);
                     starOne.animate().alpha(1).setDuration(300).start();
@@ -98,13 +96,13 @@ public class Rating extends AppCompatActivity {
                     starOne.animate().alpha(1).setDuration(300).start();
                     starOne.startAnimation(starAnim);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Good Job");
+                    resultrate.setText("Awesome!");
                 } else if (answerValue.equals("5")) {
                     starOne.setImageResource(R.drawable.star5);
                     starOne.animate().alpha(1).setDuration(300).start();
                     starOne.startAnimation(starAnim);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Awesome!");
+                    resultrate.setText("Amazing!");
                 } else {
                     Toast.makeText(getApplicationContext(), "No point", Toast.LENGTH_SHORT).show();
                 }
