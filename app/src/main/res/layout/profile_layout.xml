@@ -7,7 +7,7 @@
     android:background="@drawable/background"
     android:defaultFocusHighlightEnabled="true"
     tools:context=".profile"
-    tools:showIn="@layout/profile_layout">
+    >
 
     <ImageView
         android:id="@+id/U_P_picture"
