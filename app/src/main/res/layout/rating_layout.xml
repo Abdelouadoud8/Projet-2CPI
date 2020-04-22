@@ -1,50 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/rating_bg"
-    tools:context=".Rating"
-    android:orientation="vertical">
+    android:background="@drawable/bgmp"
+    tools:context=".Rating">
 
-    <ImageView
-        android:id="@+id/ratingtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        app:srcCompat="@drawable/ratingtitle"
-        tools:layout_editor_absoluteX="-13dp"
-        tools:layout_editor_absoluteY="87dp" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rating_bg"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="591dp" />
 
     <ImageView
         android:id="@+id/starone"
-        android:layout_width="140dp"
-        android:layout_height="180dp"
-        android:layout_marginLeft="130dp"
+        android:layout_width="190dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="220dp"
         android:src="@drawable/star3"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@id/btnfeedback"
+        app:layout_constraintEnd_toEndOf="@id/btnfeedback"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="240dp"
         android:background="@drawable/bgrate"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="408dp">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/titlerate"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="You like the app? please give a feedback!"
+            android:text="You liked the app? please give us a feedback!"
             android:textAlignment="center"
             android:textColor="@color/Black"
             android:textSize="17sp"
@@ -55,8 +57,8 @@
             android:id="@+id/rateStars"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="55dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="42dp"
             android:layout_marginBottom="10dp"
             android:numStars="5"
             android:rating="3"
@@ -67,7 +69,7 @@
             android:id="@+id/love"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="246dp"
+            android:layout_marginLeft="256dp"
             android:layout_marginTop="-15dp"
             android:text="I loved it"
             android:textAlignment="center"
@@ -78,7 +80,7 @@
             android:id="@+id/hate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="-20dp"
             android:text="I hated it "
             android:textAlignment="center"
@@ -89,7 +91,7 @@
             android:id="@+id/resultrate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="120dp"
             android:layout_marginTop="20dp"
             android:text="Good Enough"
             android:textAlignment="center"
@@ -104,85 +106,87 @@
         android:id="@+id/btnfeedback"
         android:layout_width="259dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="45dp"
-
-
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="150dp"
         android:background="@drawable/mybutton"
         android:fontFamily="@font/sarala"
         android:text="Submit"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
-    <LinearLayout
-        android:id="@+id/linearLayout3"
-        android:layout_width="183dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="116dp"
-        android:layout_marginBottom="20dp"
-        android:orientation="vertical"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/findus"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:text="Find us"
-            android:textColor="@color/Black"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/findus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="70dp"
+        android:text="Find us"
+        android:textColor="@color/Black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <LinearLayout
-            android:layout_width="180dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:orientation="horizontal">
+    <ImageButton
+        android:id="@+id/facebook_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="FacebookClique"
+        android:src="@drawable/facebook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <ImageButton
-                android:id="@+id/google_btn"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_marginLeft="0dp"
-                android:backgroundTint="@android:color/transparent"
-                android:defaultFocusHighlightEnabled="true"
-                android:focusedByDefault="false"
-                android:onClick="GoogleClique"
-                android:src="@drawable/google" />
+    <ImageButton
+        android:id="@+id/instagram_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="InstagramClique"
+        android:src="@drawable/instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <ImageButton
-                android:id="@+id/facebook_btn"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_marginLeft="20dp"
-                android:backgroundTint="@android:color/transparent"
-                android:defaultFocusHighlightEnabled="true"
-                android:focusedByDefault="false"
-                android:onClick="FacebookClique"
-                android:src="@drawable/facebook" />
+    <ImageButton
+        android:id="@+id/google_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="GoogleClique"
+        android:src="@drawable/google"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-            <ImageButton
-                android:id="@+id/instagram_btn"
-                android:layout_width="46dp"
-                android:layout_height="46dp"
-                android:layout_marginLeft="20dp"
-                android:backgroundTint="@android:color/transparent"
-                android:defaultFocusHighlightEnabled="true"
-                android:focusedByDefault="false"
-                android:onClick="InstagramClique"
-                android:src="@drawable/instagram" />
-        </LinearLayout>
-    </LinearLayout>
-
-</LinearLayout>
+    <ImageView
+        android:id="@+id/ratingtitle"
+        android:layout_width="171dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ratingtitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>
