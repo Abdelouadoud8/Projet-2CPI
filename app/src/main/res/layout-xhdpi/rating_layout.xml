@@ -21,7 +21,8 @@
         android:id="@+id/starone"
         android:layout_width="140dp"
         android:layout_height="180dp"
-        android:layout_marginLeft="130dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="-20dp"
         android:src="@drawable/star3"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,7 +33,8 @@
         android:id="@+id/linearLayout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-20dp"
         android:background="@drawable/bgrate"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,6 +45,7 @@
             android:id="@+id/titlerate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:text="You like the app? please give a feedback!"
             android:textAlignment="center"
@@ -102,14 +105,12 @@
     <Button
 
         android:id="@+id/btnfeedback"
-        android:layout_width="259dp"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginLeft="75dp"
 
 
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="42dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/mybutton"
         android:fontFamily="@font/sarala"
         android:text="Submit"
@@ -125,9 +126,8 @@
         android:id="@+id/linearLayout3"
         android:layout_width="183dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="115dp"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="116dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -147,7 +147,6 @@
         <LinearLayout
             android:layout_width="180dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <ImageButton
