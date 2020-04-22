@@ -26,4 +26,18 @@
     <string name="contact">Contact</string>
     <string name="la_partie_description_n_est_pas_encore_termin">la partie description n\'est pas encore terminé</string>
     <string name="description_de_la_place">Description of the place</string>
+    <string name="you_liked_the_app_please_give_us_a_feedback">You liked the app? please give us a feedback!</string>
+    <string name="i_loved_it">I loved it</string>
+    <string name="i_hated_it">I hated it</string>
+    <string name="good_enough">Good Enough</string>
+    <string name="submit">Submit</string>
+    <string name="find_us">Find us</string>
+    <string name="very_bad">Very bad</string>
+    <string name="Really_bad">Really bad!</string>
+    <string name="Not_that_good">Not that good!</string>
+    <string name="Good_job">Good Job</string>
+    <string name="Awsome">Awesome!</string>
+    <string name="Amazing">Amazing!</string>
+    <string name="Employer">Employee</string>
+    <string name="Aller_vers_cet_endroit">Go to these place?</string>
 </resources>

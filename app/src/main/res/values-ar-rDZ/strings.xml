@@ -23,5 +23,19 @@
     <string name="contact">للتواصل</string>
     <string name="la_partie_description_n_est_pas_encore_termin">la partie description n\'est pas encore terminé</string>
     <string name="description_de_la_place">وصف المكان</string>
+    <string name="you_liked_the_app_please_give_us_a_feedback">هل أعجبك التطبيق؟ يرجى تعطينا ردود فعل!</string>
+    <string name="i_loved_it">احببته</string>
+    <string name="i_hated_it">كرهت ذلك</string>
+    <string name="good_enough">جيد بما فيه الكفاية</string>
+    <string name="submit">إرسال</string>
+    <string name="find_us">تجدنا</string>
+    <string name="very_bad">سيئ جدا</string>
+    <string name="Really_bad">حقا سيء!</string>
+    <string name="Not_that_good">ليس جيدا لهذا الحد!</string>
+    <string name="Good_job">عمل جيد</string>
+    <string name="Awsome">رائع!</string>
+    <string name="Amazing">رائع حقا!</string>
+    <string name="Employer">موظف</string>
+    <string name="Aller_vers_cet_endroit">اذهب إلى هذا المكان?</string>
 </resources>
 

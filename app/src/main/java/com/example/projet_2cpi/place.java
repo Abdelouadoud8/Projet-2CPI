@@ -74,9 +74,9 @@ public class place extends AppCompatActivity {
                     Picasso.get().load(picture2_link).into(ImageForButton);
                     String picture3_link = dataSnapshot.child(employe).child("image").getValue(String.class);
                     Picasso.get().load(picture3_link).into(Image_btn);
-                    EmployerStat.setText("Employer");
+                    EmployerStat.setText(R.string.Employer);
                 }else{
-                    NoEmployer.setText("Aller vers cet endroit?");
+                    NoEmployer.setText(R.string.Aller_vers_cet_endroit);
                 }
             }
 
@@ -107,16 +107,16 @@ public class place extends AppCompatActivity {
             }
         });
 
-            Go_profile_btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (!make_child.equals("Null")) {
-                        profile.setChild(make_child);
-                        RecyclerViewAdapter.setUSERNAME(make_child);
-                        openProfilActivity2();
-                    }
+        Go_profile_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (!make_child.equals("Null")) {
+                    profile.setChild(make_child);
+                    RecyclerViewAdapter.setUSERNAME(make_child);
+                    openProfilActivity2();
                 }
-            });
+            }
+        });
 
         //Social media buttons
         Email_btn.setOnClickListener(new View.OnClickListener() {

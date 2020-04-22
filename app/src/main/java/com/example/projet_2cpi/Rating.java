@@ -72,45 +72,42 @@ public class Rating extends AppCompatActivity {
                 if (answerValue.equals("0")){
                     starOne.setImageResource(R.drawable.star0);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("So bad");
+                    resultrate.setText(R.string.very_bad);
                 } else if (answerValue.equals("1")) {
                     starOne.setImageResource(R.drawable.star1);
                     starOne.startAnimation(starAnim);
                     starOne.animate().alpha(1).setDuration(300).start();
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Really bad!");
-                } else if (answerValue.equals("2") || answerValue.equals("2")) {
+                    resultrate.setText(R.string.Really_bad);
+                } else if (answerValue.equals("2")) {
                     starOne.setImageResource(R.drawable.star2);
                     starOne.animate().alpha(1).setDuration(300).start();
                     starOne.startAnimation(starAnim);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Not that good!");
+                    resultrate.setText(R.string.Not_that_good);
                 } else if (answerValue.equals("3")) {
                     starOne.setImageResource(R.drawable.star3);
                     starOne.animate().alpha(1).setDuration(300).start();
                     starOne.startAnimation(starAnim);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Good Job");
+                    resultrate.setText(R.string.Good_job);
                 } else if (answerValue.equals("4")) {
                     starOne.setImageResource(R.drawable.star4);
                     starOne.animate().alpha(1).setDuration(300).start();
                     starOne.startAnimation(starAnim);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Awesome!");
+                    resultrate.setText(R.string.Awsome);
                 } else if (answerValue.equals("5")) {
                     starOne.setImageResource(R.drawable.star5);
                     starOne.animate().alpha(1).setDuration(300).start();
                     starOne.startAnimation(starAnim);
                     btnfeedback.startAnimation(btt);
-                    resultrate.setText("Amazing!");
+                    resultrate.setText(R.string.Amazing);
                 } else {
                     Toast.makeText(getApplicationContext(), "No point", Toast.LENGTH_SHORT).show();
                 }
-
-
             }
         });
-
 
     }
 
