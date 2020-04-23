@@ -1,0 +1,141 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projet_2cpi"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.INTERNET," />
+14-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+15-->[com.firebaseui:firebase-ui-database:6.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4a2f2b232accc1a0349ec373c3ad1277\firebase-ui-database-6.2.0\AndroidManifest.xml:11:5-67
+15-->[com.firebaseui:firebase-ui-database:6.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4a2f2b232accc1a0349ec373c3ad1277\firebase-ui-database-6.2.0\AndroidManifest.xml:11:22-64
+16    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+17-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+18
+19    <application
+19-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:10:5-33:19
+20        android:allowBackup="true"
+20-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:11:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.1.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+22        android:debuggable="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:12:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:13:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:14:9-54
+26        android:supportsRtl="false"
+26-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:15:9-36
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme.NoActionBar" >
+28-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:16:9-52
+29        <activity
+29-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:17:9-20:68
+30            android:name="com.example.projet_2cpi.place"
+30-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:18:13-34
+31            android:label="@string/title_activity_place"
+31-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:19:13-57
+32            android:theme="@style/AppTheme.NoActionBar" />
+32-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:20:13-56
+33        <activity
+33-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:21:9-24:59
+34            android:name="com.example.projet_2cpi.profile"
+34-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:22:13-36
+35            android:label="@string/title_activity_profile"
+35-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:23:13-59
+36            android:theme="@style/AppTheme.NoActionBar" />
+36-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:24:13-56
+37        <activity android:name="com.example.projet_2cpi.MainActivity" >
+37-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:25:9-30:20
+37-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:25:19-47
+38            <intent-filter>
+38-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:26:13-29:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:27:17-69
+39-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:27:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:28:17-77
+41-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:28:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.example.projet_2cpi.activation" />
+44-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:31:9-48
+44-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:31:19-45
+45        <activity android:name="com.example.projet_2cpi.Rating" />
+45-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:32:9-44
+45-->C:\Users\AsmaaTsubaki\Desktop\Projet_AR\Projet-2CPI\app\src\main\AndroidManifest.xml:32:19-41
+46
+47        <service
+47-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+51            <meta-data
+51-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+52                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+52-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+54        </service>
+55
+56        <provider
+56-->[com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+57            android:name="com.squareup.picasso.PicassoProvider"
+57-->[com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+58            android:authorities="com.example.projet_2cpi.com.squareup.picasso"
+58-->[com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+59            android:exported="false" />
+59-->[com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+65
+66        <provider
+66-->[com.google.firebase:firebase-common:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+67            android:name="com.google.firebase.provider.FirebaseInitProvider"
+67-->[com.google.firebase:firebase-common:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+68            android:authorities="com.example.projet_2cpi.firebaseinitprovider"
+68-->[com.google.firebase:firebase-common:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+69            android:exported="false"
+69-->[com.google.firebase:firebase-common:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+70            android:initOrder="100" />
+70-->[com.google.firebase:firebase-common:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\72cb91c7d76db81ca619167cd60ef6fe\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\72cb91c7d76db81ca619167cd60ef6fe\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\72cb91c7d76db81ca619167cd60ef6fe\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>

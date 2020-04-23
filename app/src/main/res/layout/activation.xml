@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-400dp"
         android:background="@drawable/mybutton"
-        android:text="Activer la caméra"
+        android:text="@string/activer_la_cam_ra"
         android:textColor="#ffffff" />
 
     <Button
@@ -25,7 +25,7 @@
         android:layout_centerInParent="true"
         android:layout_marginTop="425dp"
         android:background="@drawable/mybutton"
-        android:text="Activer la localisation"
+        android:text="@string/activer_la_localisation"
         android:textColor="#ffffff" />
 
 

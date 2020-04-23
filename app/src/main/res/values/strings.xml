@@ -40,4 +40,7 @@
     <string name="Amazing">Amazing!</string>
     <string name="Employer">Employee</string>
     <string name="Aller_vers_cet_endroit">Go to these place?</string>
+    <string name="choose_languages">choose language</string>
+    <string name="activer_la_cam_ra">Activer la caméra</string>
+    <string name="activer_la_localisation">Activer la localisation</string>
 </resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Aller_vers_cet_endroit">اذهب إلى هذا المكان?</string>
+    <string name="Amazing">رائع حقا!</string>
+    <string name="Awsome">رائع!</string>
+    <string name="Employer">موظف</string>
+    <string name="Good_job">عمل جيد</string>
+    <string name="Not_that_good">ليس جيدا لهذا الحد!</string>
+    <string name="Really_bad">حقا سيء!</string>
+    <string name="about_us">من نحن</string>
+    <string name="app_name">
+    </string>
+    <string name="choose_language">اختيار اللغه</string>
+    <string name="choose_languages">اختر اللغة</string>
+    <string name="communicate">التواصل</string>
+    <string name="contact">للتواصل</string>
+    <string name="contact_us">للتواصل معنا</string>
+    <string name="description_de_la_place">وصف المكان</string>
+    <string name="dimanche">الاحد</string>
+    <string name="find_us">تجدنا</string>
+    <string name="good_enough">جيد بما فيه الكفاية</string>
+    <string name="home">الرئيسي</string>
+    <string name="horaires_du_travail">ساعات العمل</string>
+    <string name="how_it_works">كيف يعمل التطبيق</string>
+    <string name="i_hated_it">كرهت ذلك</string>
+    <string name="i_loved_it">احببته</string>
+    <string name="jeudi">الخميس</string>
+    <string name="la_partie_description_n_est_pas_encore_termin">la partie description n\'est pas encore terminé</string>
+    <string name="lundi">الاثنين</string>
+    <string name="mardi">الثلاثاء</string>
+    <string name="mercredi">الاربعاء</string>
+    <string name="nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail">ملحوظة: انقر على الأيام لمعرفة ساعات العمل</string>
+    <string name="place">المكان</string>
+    <string name="rate_us">تقييم التطبيق</string>
+    <string name="search_here">ابحث هنا</string>
+    <string name="share_the_app">مشاركه التطبيق</string>
+    <string name="sharing">مشاركه</string>
+    <string name="submit">إرسال</string>
+    <string name="very_bad">سيئ جدا</string>
+    <string name="you_liked_the_app_please_give_us_a_feedback">هل أعجبك التطبيق؟ يرجى تعطينا ردود فعل!</string>
+</resources>

@@ -267,7 +267,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void showChangeLanguageDialogue() {
         final String [] listItems={"Français","English","عربي"};
         AlertDialog.Builder mBuilder=new AlertDialog.Builder(MainActivity.this);
-        mBuilder.setTitle("choose language");
+        mBuilder.setTitle(getString(R.string.choose_languages));
         mBuilder.setSingleChoiceItems(listItems, -1, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {

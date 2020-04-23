@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Aller_vers_cet_endroit">Aller vers cet endroit?</string>
+    <string name="Amazing">Incroyable!</string>
+    <string name="Awsome">Impressionnant!</string>
+    <string name="Employer">Employer</string>
+    <string name="Good_job">Bon travail</string>
+    <string name="Not_that_good">Pas si bon!</string>
+    <string name="Really_bad">Vraiment mauvais!</string>
+    <string name="about_us">A propos</string>
+    <string name="choose_language">Choisir une langue</string>
+    <string name="choose_languages">Choisissez la langue</string>
+    <string name="communicate">Communiquer</string>
+    <string name="contact">Contact</string>
+    <string name="contact_us">Contactez-nous</string>
+    <string name="description_de_la_place">Description de la place</string>
+    <string name="dimanche">DIMANCHE</string>
+    <string name="find_us">Trouve nous</string>
+    <string name="good_enough">Assez bien</string>
+    <string name="home">Home</string>
+    <string name="horaires_du_travail">Horaires du travail</string>
+    <string name="how_it_works">Comment ça marche</string>
+    <string name="i_hated_it">j\'ai détesté</string>
+    <string name="i_loved_it">je l\'ai aimé</string>
+    <string name="jeudi">JEUDI</string>
+    <string name="la_partie_description_n_est_pas_encore_termin">la partie description n\'est pas encore terminé</string>
+    <string name="lundi">LUNDI</string>
+    <string name="mardi">MARDI</string>
+    <string name="mercredi">MERCREDI</string>
+    <string name="nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail">NB : cliquer sur les jours pour voir les horaires du travail</string>
+    <string name="place">Place</string>
+    <string name="rate_us">Evaluez-nous</string>
+    <string name="search_here">"Rechercher "</string>
+    <string name="share_the_app">Partager l\'app</string>
+    <string name="sharing">Partager</string>
+    <string name="submit">Soumettre</string>
+    <string name="very_bad">Très mauvais</string>
+    <string name="you_liked_the_app_please_give_us_a_feedback">Vous avez aimé l\'application? merci de nous faire part de vos commentaires!</string>
+</resources>
