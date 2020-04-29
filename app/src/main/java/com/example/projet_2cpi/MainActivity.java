@@ -118,10 +118,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onDataChange(DataSnapshot snapshot) {
                 boolean connected = snapshot.getValue(Boolean.class);
                 if (connected) {
-                    Toast.makeText(MainActivity.this, "connected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.connected, Toast.LENGTH_SHORT).show();
 
                 } else {
-                    Toast.makeText(MainActivity.this, "not connected", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, R.string.not_connected, Toast.LENGTH_SHORT).show();
                 }
             }
 

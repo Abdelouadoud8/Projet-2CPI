@@ -24,9 +24,6 @@ public class Users {
         return image;
     }
 
-    public void setImage(String image) {
-        this.image = image;
-    }
 
     public String getStatus() {
         return status;

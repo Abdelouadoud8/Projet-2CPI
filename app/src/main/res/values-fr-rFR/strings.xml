@@ -38,5 +38,7 @@
     <string name="choose_languages">Choisissez la langue</string>
     <string name="activer_la_cam_ra">Activer la caméra</string>
     <string name="activer_la_localisation">Activer la localisation</string>
+    <string name="connected">connecté</string>
+    <string name="not_connected">non connecté</string>
 </resources>
 

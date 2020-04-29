@@ -1625,6 +1625,8 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string about_us
+string activer_la_cam_ra
+string activer_la_localisation
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -1651,6 +1653,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string communicate
+string connected
 string contact
 string contact_us
 string default_web_client_id
@@ -1681,6 +1684,7 @@ string mtrl_chip_close_icon_content_description
 string navigation_drawer_close
 string navigation_drawer_open
 string nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail
+string not_connected
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
