@@ -208,16 +208,16 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
     // View Holder Class
 
-    public static class UsersViewHolder extends RecyclerView.ViewHolder {
+    static class UsersViewHolder extends RecyclerView.ViewHolder {
 
         View mView;
 
-        public UsersViewHolder(View itemView) {
+        UsersViewHolder(View itemView) {
             super(itemView);
             mView = itemView;
         }
 
-        public void setDetails(Context ctx,String userName, String userStatus, String userImage){
+        void setDetails(Context ctx, String userName, String userStatus, String userImage){
 
             TextView user_name = (TextView) mView.findViewById(R.id.name_text);
             TextView user_status = (TextView) mView.findViewById(R.id.status_text);
@@ -264,6 +264,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
+    //for language button
     private void showChangeLanguageDialogue() {
         final String [] listItems={"Français","English","عربي"};
         AlertDialog.Builder mBuilder=new AlertDialog.Builder(MainActivity.this);
@@ -289,7 +290,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mDialog.show();
     }
 
-    //for language button
+
     private void setLocale(String langue) {
         Locale locale=new Locale(langue);
         Locale.setDefault(locale);
@@ -300,6 +301,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         editor.putString("Ma langue",langue);
         editor.apply();
     }
+
     public void loadLocale(){
         SharedPreferences pref=getSharedPreferences("Settings", Activity.MODE_PRIVATE);
         String langue=pref.getString("Ma langue","");
@@ -310,28 +312,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode) {
-            case 1: {
-                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    if ((ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.ACCESS_FINE_LOCATION)  == PackageManager.PERMISSION_GRANTED)
-                            && (ContextCompat.checkSelfPermission(MainActivity.this,
-                            Manifest.permission.CAMERA)  == PackageManager.PERMISSION_GRANTED)) {
-                        Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-                    }
-                    else{
-                        passto();
-
-                    }
-                }
-                else{
+        if (requestCode == 1) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                if ((ContextCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED)
+                        && (ContextCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED)) {
+                    Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
+                } else {
                     passto();
-                }
-                return;
-            }
 
+                }
+            } else {
+                passto();
+            }
         }
     }
+
     private void passto(){
         Intent intent = new Intent(this, activation.class);
         startActivity(intent);

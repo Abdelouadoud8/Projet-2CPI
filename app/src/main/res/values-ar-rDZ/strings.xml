@@ -38,7 +38,7 @@
     <string name="Employer">موظف</string>
     <string name="Aller_vers_cet_endroit">اذهب إلى هذا المكان?</string>
     <string name="choose_languages">اختر اللغة</string>
-    <string name="activer_la_cam_ra">Activer la caméra</string>
-    <string name="activer_la_localisation">Activer la localisation</string>
+    <string name="activer_la_cam_ra">تفعيل الكاميرا</string>
+    <string name="activer_la_localisation"> تفعيل الموقع </string>
 </resources>
 
