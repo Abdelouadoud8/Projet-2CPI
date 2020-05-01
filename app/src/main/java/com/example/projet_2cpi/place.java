@@ -31,14 +31,15 @@ public class place extends AppCompatActivity {
     DatabaseReference reff;
     String Child, make_child, Employe;
     String PhoneNumber, FaxNumber, AdrEmail, AdrLinkedin;
-    String Language;
+    String Language2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.place_activity);
 
-        Language = MainActivity.getLanguage();
+        Language2 = Languages.getLanguage();
         Child = RecyclerViewAdapter.getUSERNAME();
         //Text Views
         Cycle = (TextView)findViewById(R.id.cycle);
@@ -66,7 +67,7 @@ public class place extends AppCompatActivity {
                 //String cycle = dataSnapshot.child(Child).child("cycle").getValue().toString();
                 String employe = dataSnapshot.child(Child).child("employe").getValue().toString();
                 //String employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
-                switch (Language) {
+                switch (Language2) {
                     case "fr":
                         employe_name = dataSnapshot.child(employe).child("fr").child("name").getValue().toString();
                         break;
@@ -77,7 +78,7 @@ public class place extends AppCompatActivity {
                         employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
                         break;
                 }
-                switch (Language) {
+                switch (Language2) {
                     case "fr":
                         cycle = dataSnapshot.child(Child).child("fr").child("cycle").getValue().toString();
                         break;
@@ -99,7 +100,7 @@ public class place extends AppCompatActivity {
                     Picasso.get().load(picture_link).into(Image_btn);
                     String picture2_link = "";
                     //String picture2_link = dataSnapshot.child("imageforbuttonfr").getValue(String.class);
-                    switch (Language) {
+                    switch (Language2) {
                         case "fr":
                             picture2_link = dataSnapshot.child("imageforbutton").getValue(String.class);
                             break;
@@ -110,7 +111,7 @@ public class place extends AppCompatActivity {
                             picture2_link = dataSnapshot.child("imageforbuttonar").getValue(String.class);
                             break;
                     }
-                    Picasso.get().load(picture2_link).into(ImageForButton);
+                        Picasso.get().load(picture2_link).into(ImageForButton);
                     String picture3_link = dataSnapshot.child(employe).child("image").getValue(String.class);
                     Picasso.get().load(picture3_link).into(Image_btn);
                     EmployerStat.setText(R.string.Employer);
@@ -157,28 +158,6 @@ public class place extends AppCompatActivity {
             }
         });
 
-        //Social media buttons
-        Email_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(place.this,"Email : " + AdrEmail,Toast.LENGTH_LONG).show();
-            }
-        });
-
-        Phone_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(place.this,"Phone : " + PhoneNumber,Toast.LENGTH_LONG).show();
-            }
-        });
-
-        Fax_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(place.this,"Fax : " + FaxNumber,Toast.LENGTH_LONG).show();
-            }
-        });
-
     }
 
     public void openProfilActivity2(){
@@ -188,8 +167,25 @@ public class place extends AppCompatActivity {
 
     }
 
+    public void EmailClique(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(AdrEmail));
+        startActivity(browserIntent);
+    }
+
     public void linkedinClique(View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(AdrLinkedin));
         startActivity(browserIntent);
     }
+
+    public void FaxClique(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(FaxNumber));
+        startActivity(browserIntent);
+    }
+
+    public void PhoneClique(View view) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(PhoneNumber));
+        startActivity(browserIntent);
+    }
+
+
 }

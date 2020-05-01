@@ -32,14 +32,18 @@ public class profile extends AppCompatActivity {
     DatabaseReference reff;
     private static String Child;
     String PhoneNumber, FaxNumber, AdrEmail, AdrLinkedin;
-    String Language;
+    String Language,Language_test;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_layout);
 
-        Language = MainActivity.getLanguage();
+        Language = Languages.getLanguage();
+        /* Language_test = MainActivity.getLanguage();
+        if ((!Language_test.equals("fr")) && (!Language_test.equals("en")) && (!Language_test.equals("ar"))){
+            Language = MainActivity.getLanguage();
+        } */
         Child = RecyclerViewAdapter.getUSERNAME();
         //Text Views
         Username = (TextView) findViewById(R.id.username);
@@ -149,7 +153,18 @@ public class profile extends AppCompatActivity {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         } else {
-                            String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            String picture_link = "";
+                            switch (Language) {
+                                case "fr":
+                                    picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                                    break;
+                                case "en":
+                                    picture_link = dataSnapshot.child("pasdetravailEN").getValue(String.class);
+                                    break;
+                                case "ar":
+                                    picture_link = dataSnapshot.child("pasdetravailAR").getValue(String.class);
+                                    break;
+                            }
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
@@ -197,7 +212,19 @@ public class profile extends AppCompatActivity {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         } else {
-                            String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            //String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            String picture_link = "";
+                            switch (Language) {
+                                case "fr":
+                                    picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                                    break;
+                                case "en":
+                                    picture_link = dataSnapshot.child("pasdetravailEN").getValue(String.class);
+                                    break;
+                                case "ar":
+                                    picture_link = dataSnapshot.child("pasdetravailAR").getValue(String.class);
+                                    break;
+                            }
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
@@ -245,7 +272,19 @@ public class profile extends AppCompatActivity {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         } else {
-                            String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            //String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            String picture_link = "";
+                            switch (Language) {
+                                case "fr":
+                                    picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                                    break;
+                                case "en":
+                                    picture_link = dataSnapshot.child("pasdetravailEN").getValue(String.class);
+                                    break;
+                                case "ar":
+                                    picture_link = dataSnapshot.child("pasdetravailAR").getValue(String.class);
+                                    break;
+                            }
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
@@ -293,7 +332,19 @@ public class profile extends AppCompatActivity {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         } else {
-                            String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            //String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            String picture_link = "";
+                            switch (Language) {
+                                case "fr":
+                                    picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                                    break;
+                                case "en":
+                                    picture_link = dataSnapshot.child("pasdetravailEN").getValue(String.class);
+                                    break;
+                                case "ar":
+                                    picture_link = dataSnapshot.child("pasdetravailAR").getValue(String.class);
+                                    break;
+                            }
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }
@@ -339,7 +390,19 @@ public class profile extends AppCompatActivity {
                             String picture_link = dataSnapshot.child("soir").getValue(String.class);
                             Picasso.get().load(picture_link).into(DayPicture2);
                         } else {
-                            String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            //String picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                            String picture_link = "";
+                            switch (Language) {
+                                case "fr":
+                                    picture_link = dataSnapshot.child("pasdetravail").getValue(String.class);
+                                    break;
+                                case "en":
+                                    picture_link = dataSnapshot.child("pasdetravailEN").getValue(String.class);
+                                    break;
+                                case "ar":
+                                    picture_link = dataSnapshot.child("pasdetravailAR").getValue(String.class);
+                                    break;
+                            }
                             Picasso.get().load(picture_link).into(DayPicture2);
                         }
                     }

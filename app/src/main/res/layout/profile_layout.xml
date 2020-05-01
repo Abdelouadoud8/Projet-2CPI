@@ -229,7 +229,7 @@
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
-        android:onClick="PhoneClique"
+        android:onClick="FaxClique"
         android:src="@drawable/fax"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

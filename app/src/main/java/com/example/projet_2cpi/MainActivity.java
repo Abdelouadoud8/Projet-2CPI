@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.os.Bundle;
 // activation
 import androidx.annotation.NonNull;
@@ -58,7 +59,6 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     static final int REQUEST_CODE = 123;
-    private static String language;
     private EditText mSearchField;
     private ImageButton mSearchBtn;
     private RecyclerView mResultList;
@@ -66,20 +66,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
+    String Language;
 
 
     private DatabaseReference mUserDatabase;
     Query firebaseSearchQuery;
     FirebaseRecyclerAdapter<Users, UsersViewHolder> firebaseRecyclerAdapter;
     List<Users> result;
+    private String Language_test;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         loadLocale();
         setContentView(R.layout.activity_main);
-        // first language
-        language = "fr";
+
+
 
         /*----------------------Autorisations----------------------*/
         if (ContextCompat.checkSelfPermission(MainActivity.this,
@@ -188,7 +190,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setCheckedItem(R.id.nav_home);
 
         /*--------------------------NAV-BAR--------------------------*/
+        Language_test = Languages.getLanguage();
 
+        //default language
+        if (Language_test == null){
+            Languages.setLanguage("fr");
+        }
     }
 
 
@@ -255,6 +262,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_about:
                 break;
             case R.id.nav_contact:
+                //ContactUs(this.navigationView);
                 break;
             case R.id.nav_share:
                 break;
@@ -275,15 +283,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         if (i == 0) {
-                            language = "fr";
+                            Languages.setLanguage("fr");
                             setLocale("fr");
                             recreate();
                         } else if (i == 1) {
-                            language = "en";
+                            Languages.setLanguage("en");
                             setLocale("en");
                             recreate();
                         } else if (i == 2) {
-                            language = "ar";
+                            Languages.setLanguage("ar");
                             setLocale("ar");
                             recreate();
                         }
@@ -339,6 +347,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(intent);
     }
 
-    public static String getLanguage(){return language;}
+    public void ContactUs(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:abdelouadoud.mahdaoui@gmail.com"));
+        startActivity(browserIntent);
+    }
+
+    //selected language getter
+    //public static String getLanguage(){return language;}
 }
 

@@ -4,6 +4,7 @@ public class Users {
 
     public String name, image, status, genre;
 
+
     public Users(){
 
     }
@@ -39,6 +40,9 @@ public class Users {
         this.status = status;
         this.genre = genre;
     }
+
+
+
 }
 
 

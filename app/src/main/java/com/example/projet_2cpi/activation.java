@@ -9,6 +9,8 @@ import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
 
+import static com.example.projet_2cpi.Languages.setLanguage;
+
 public class activation extends AppCompatActivity {
     Button btn1;
     Button btn2;
@@ -17,6 +19,7 @@ public class activation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activation);
+
         btn1 = (Button)findViewById(R.id.button1);
         btn2 = (Button)findViewById(R.id.button2);
         btn1.setOnClickListener(new View.OnClickListener() {
@@ -44,5 +47,6 @@ public class activation extends AppCompatActivity {
 
 
     }
+
 
 }
