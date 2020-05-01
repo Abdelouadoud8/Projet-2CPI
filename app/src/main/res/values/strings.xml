@@ -44,5 +44,5 @@
     <string name="activer_la_cam_ra">Activate the camera</string>
     <string name="activer_la_localisation">Activate the localisation</string>
     <string name="connected">connected</string>
-    <string name="not_connected">not connected</string>
+    <string name="not_connected">Please make sure to connect to internet</string>
 </resources>

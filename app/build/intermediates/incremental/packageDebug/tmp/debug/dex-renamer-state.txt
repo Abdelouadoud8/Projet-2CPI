@@ -1,7 +1,7 @@
-#Wed Apr 29 05:01:47 WAT 2020
-base.0=C\:\\Users\\AsmaaTsubaki\\Desktop\\Projet_AR\\Projet-2CPI\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Fri May 01 21:09:30 BST 2020
+base.0=C\:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\AsmaaTsubaki\\Desktop\\Projet_AR\\Projet-2CPI\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

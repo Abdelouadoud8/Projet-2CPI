@@ -58,6 +58,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     static final int REQUEST_CODE = 123;
+    private static String language;
     private EditText mSearchField;
     private ImageButton mSearchBtn;
     private RecyclerView mResultList;
@@ -65,7 +66,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-
 
 
     private DatabaseReference mUserDatabase;
@@ -78,6 +78,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         loadLocale();
         setContentView(R.layout.activity_main);
+        // first language
+        language = "fr";
 
         /*----------------------Autorisations----------------------*/
         if (ContextCompat.checkSelfPermission(MainActivity.this,
@@ -273,12 +275,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         if (i == 0) {
+                            language = "fr";
                             setLocale("fr");
                             recreate();
                         } else if (i == 1) {
+                            language = "en";
                             setLocale("en");
                             recreate();
                         } else if (i == 2) {
+                            language = "ar";
                             setLocale("ar");
                             recreate();
                         }
@@ -333,5 +338,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent intent = new Intent(this, activation.class);
         startActivity(intent);
     }
+
+    public static String getLanguage(){return language;}
 }
 

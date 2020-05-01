@@ -31,12 +31,14 @@ public class place extends AppCompatActivity {
     DatabaseReference reff;
     String Child, make_child, Employe;
     String PhoneNumber, FaxNumber, AdrEmail, AdrLinkedin;
+    String Language;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.place_activity);
 
+        Language = MainActivity.getLanguage();
         Child = RecyclerViewAdapter.getUSERNAME();
         //Text Views
         Cycle = (TextView)findViewById(R.id.cycle);
@@ -59,18 +61,55 @@ public class place extends AppCompatActivity {
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String cycle = dataSnapshot.child(Child).child("cycle").getValue().toString();
+                String employe_name = "";
+                String cycle = "";
+                //String cycle = dataSnapshot.child(Child).child("cycle").getValue().toString();
                 String employe = dataSnapshot.child(Child).child("employe").getValue().toString();
+                //String employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
+                switch (Language) {
+                    case "fr":
+                        employe_name = dataSnapshot.child(employe).child("fr").child("name").getValue().toString();
+                        break;
+                    case "en":
+                        employe_name = dataSnapshot.child(employe).child("en").child("name").getValue().toString();
+                        break;
+                    case "ar":
+                        employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
+                        break;
+                }
+                switch (Language) {
+                    case "fr":
+                        cycle = dataSnapshot.child(Child).child("fr").child("cycle").getValue().toString();
+                        break;
+                    case "en":
+                        cycle = dataSnapshot.child(Child).child("en").child("cycle").getValue().toString();
+                        break;
+                    case "ar":
+                        cycle = dataSnapshot.child(Child).child("ar").child("cycle").getValue().toString();
+                        break;
+                }
                 //String username = dataSnapshot.child(employe).child("name").getValue().toString();
                 Employe = employe;
                 make_child = employe;
 
                 Cycle.setText(cycle);
                 if(!Employe.equals("Null")){
-                    Username.setText(employe);
+                    Username.setText(employe_name);
                     String picture_link = dataSnapshot.child(employe).child("image").getValue(String.class);
                     Picasso.get().load(picture_link).into(Image_btn);
-                    String picture2_link = dataSnapshot.child("imageforbutton").getValue(String.class);
+                    String picture2_link = "";
+                    //String picture2_link = dataSnapshot.child("imageforbuttonfr").getValue(String.class);
+                    switch (Language) {
+                        case "fr":
+                            picture2_link = dataSnapshot.child("imageforbutton").getValue(String.class);
+                            break;
+                        case "en":
+                            picture2_link = dataSnapshot.child("imageforbutton").getValue(String.class);
+                            break;
+                        case "ar":
+                            picture2_link = dataSnapshot.child("imageforbuttonar").getValue(String.class);
+                            break;
+                    }
                     Picasso.get().load(picture2_link).into(ImageForButton);
                     String picture3_link = dataSnapshot.child(employe).child("image").getValue(String.class);
                     Picasso.get().load(picture3_link).into(Image_btn);

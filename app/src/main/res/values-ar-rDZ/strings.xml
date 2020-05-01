@@ -41,6 +41,6 @@
     <string name="activer_la_cam_ra">تفعيل الكاميرا</string>
     <string name="activer_la_localisation"> تفعيل الموقع </string>
     <string name="connected">متصل</string>
-    <string name="not_connected">غير متصل</string>
+    <string name="not_connected">تأكد من الإتصال بالإنترنت</string>
 </resources>
 

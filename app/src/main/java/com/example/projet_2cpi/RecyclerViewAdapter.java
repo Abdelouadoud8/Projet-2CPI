@@ -63,25 +63,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
                     Intent intent = new Intent(v.getContext(),place.class);
                     v.getContext().startActivity(intent);
                 }
-
-                /* Toast.makeText(v.getContext(),USERNAME + " " +
-                        "choisis!\nPour consulter le profil cliquer sur le button \nALLER VERS LE PROFIL",Toast.LENGTH_LONG).show(); */
-
-                //openProfilActivity();
-                // Tester nrecuperer username mel BDD
-                /* reff = FirebaseDatabase.getInstance().getReference("Users");
-                reff.addValueEventListener(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        String username = dataSnapshot.child("01").child("name").getValue().toString();
-                        //USERNAME = username;
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError databaseError) {
-
-                    }
-                }); */
             }
         });
 

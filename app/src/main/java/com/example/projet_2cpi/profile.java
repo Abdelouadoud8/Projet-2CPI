@@ -32,12 +32,14 @@ public class profile extends AppCompatActivity {
     DatabaseReference reff;
     private static String Child;
     String PhoneNumber, FaxNumber, AdrEmail, AdrLinkedin;
+    String Language;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_layout);
 
+        Language = MainActivity.getLanguage();
         Child = RecyclerViewAdapter.getUSERNAME();
         //Text Views
         Username = (TextView) findViewById(R.id.username);
@@ -66,8 +68,32 @@ public class profile extends AppCompatActivity {
         reff.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                String username = dataSnapshot.child("name").getValue().toString();
-                String poste = dataSnapshot.child("Poste").getValue().toString();
+                String username = "";
+                String poste = "";
+                switch (Language) {
+                    case "fr":
+                        username = dataSnapshot.child("fr").child("name").getValue().toString();
+                        break;
+                    case "en":
+                        username = dataSnapshot.child("en").child("name").getValue().toString();
+                        break;
+                    case "ar":
+                        username = dataSnapshot.child("ar").child("name").getValue().toString();
+                        break;
+                }
+                switch (Language) {
+                    case "fr":
+                        poste = dataSnapshot.child("fr").child("Poste").getValue().toString();
+                        break;
+                    case "en":
+                        poste = dataSnapshot.child("en").child("Poste").getValue().toString();
+                        break;
+                    case "ar":
+                        poste = dataSnapshot.child("ar").child("Poste").getValue().toString();
+                        break;
+                }
+                //String username = dataSnapshot.child("name").getValue().toString();
+                //String poste = dataSnapshot.child("Poste").getValue().toString();
                 String picture_link = dataSnapshot.child("image").getValue(String.class);
                 Picasso.get().load(picture_link).into(Picture);
                 PhoneNumber = dataSnapshot.child("Contact").child("phone").getValue().toString();
@@ -95,8 +121,22 @@ public class profile extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         NB.setText("");
-                        Matin.setText("Matin :");
-                        Soir.setText("Soir");
+                        switch (Language) {
+                            case "fr":
+                                Matin.setText("Matin :");
+                                Soir.setText("Soir :");
+                                break;
+                            case "en":
+                                Matin.setText("Morning :");
+                                Soir.setText("Evening :");
+                                break;
+                            case "ar":
+                                Matin.setText("الصباح :");
+                                Soir.setText("المساء :");
+                                break;
+                        }
+                        /* Matin.setText("Matin :");
+                        Soir.setText("Soir"); */
                         String horaire = dataSnapshot.child("Dimanche").child("matin").getValue().toString();
                         //Si travail le matin
                         if (horaire.equalsIgnoreCase("Oui")) {
@@ -129,8 +169,22 @@ public class profile extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         NB.setText("");
-                        Matin.setText("Matin :");
-                        Soir.setText("Soir");
+                        switch (Language) {
+                            case "fr":
+                                Matin.setText("Matin :");
+                                Soir.setText("Soir :");
+                                break;
+                            case "en":
+                                Matin.setText("Morning :");
+                                Soir.setText("Evening :");
+                                break;
+                            case "ar":
+                                Matin.setText("الصباح :");
+                                Soir.setText("المساء :");
+                                break;
+                        }
+                        /* Matin.setText("Matin :");
+                        Soir.setText("Soir"); */
                         String horaire = dataSnapshot.child("Lundi").child("matin").getValue().toString();
                         //Si travail le matin
                         if (horaire.equalsIgnoreCase("Oui")) {
@@ -163,8 +217,22 @@ public class profile extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         NB.setText("");
-                        Matin.setText("Matin :");
-                        Soir.setText("Soir");
+                        switch (Language) {
+                            case "fr":
+                                Matin.setText("Matin :");
+                                Soir.setText("Soir :");
+                                break;
+                            case "en":
+                                Matin.setText("Morning :");
+                                Soir.setText("Evening :");
+                                break;
+                            case "ar":
+                                Matin.setText("الصباح :");
+                                Soir.setText("المساء :");
+                                break;
+                        }
+                        /* Matin.setText("Matin :");
+                        Soir.setText("Soir"); */
                         String horaire = dataSnapshot.child("Mardi").child("matin").getValue().toString();
                         //Si travail le matin
                         if (horaire.equalsIgnoreCase("Oui")) {
@@ -197,8 +265,22 @@ public class profile extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         NB.setText("");
-                        Matin.setText("Matin :");
-                        Soir.setText("Soir");
+                        switch (Language) {
+                            case "fr":
+                                Matin.setText("Matin :");
+                                Soir.setText("Soir :");
+                                break;
+                            case "en":
+                                Matin.setText("Morning :");
+                                Soir.setText("Evening :");
+                                break;
+                            case "ar":
+                                Matin.setText("الصباح :");
+                                Soir.setText("المساء :");
+                                break;
+                        }
+                        /* Matin.setText("Matin :");
+                        Soir.setText("Soir"); */
                         String horaire = dataSnapshot.child("Mercredi").child("matin").getValue().toString();
                         //Si travail le matin
                         if (horaire.equalsIgnoreCase("Oui")) {
@@ -231,8 +313,20 @@ public class profile extends AppCompatActivity {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         NB.setText("");
-                        Matin.setText("Matin :");
-                        Soir.setText("Soir");
+                        switch (Language) {
+                            case "fr":
+                                Matin.setText("Matin :");
+                                Soir.setText("Soir :");
+                                break;
+                            case "en":
+                                Matin.setText("Morning :");
+                                Soir.setText("Evening :");
+                                break;
+                            case "ar":
+                                Matin.setText("الصباح :");
+                                Soir.setText("المساء :");
+                                break;
+                        }
                         String horaire = dataSnapshot.child("Jeudi").child("matin").getValue().toString();
                         //Si travail le matin
                         if (horaire.equalsIgnoreCase("Oui")) {

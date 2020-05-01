@@ -31,7 +31,7 @@
     <string name="mardi">MARDI</string>
     <string name="mercredi">MERCREDI</string>
     <string name="nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail">NB : cliquer sur les jours pour voir les horaires du travail</string>
-    <string name="not_connected">non connecté</string>
+    <string name="not_connected">Assurez que vous etes connectez à internet</string>
     <string name="place">Place</string>
     <string name="rate_us">Evaluez-nous</string>
     <string name="search_here">"Rechercher "</string>
