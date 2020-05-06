@@ -2,10 +2,12 @@ package com.example.projet_2cpi;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.Application;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
@@ -22,6 +24,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -53,9 +56,12 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+
+import javax.security.auth.Subject;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     static final int REQUEST_CODE = 123;
@@ -196,7 +202,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         if (Language_test == null){
             Languages.setLanguage("fr");
         }
+
+
     }
+
 
 
     @Override
@@ -265,10 +274,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 //ContactUs(this.navigationView);
                 break;
             case R.id.nav_share:
+                Share();
                 break;
             case R.id.nave_rate:
-                Intent intent = new Intent(MainActivity.this,Rating.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(MainActivity.this,Rating.class);
+                startActivity(intent1);
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
@@ -351,6 +361,26 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:abdelouadoud.mahdaoui@gmail.com"));
         startActivity(browserIntent);
     }
+
+    //Share button
+    private void Share(){
+        Intent SharingIntent = new Intent(Intent.ACTION_SEND);
+        SharingIntent.setType("text/plain");
+        String ShareBody = "partager via :";
+        String ShareSubject = "On vous invite à télécahrger l'application Guiddini on appuiant sur ce lien : LIEN MZL\"";
+        //SharingIntent.putExtra(Intent.EXTRA_TEXT,ShareBody);
+        SharingIntent.putExtra(Intent.EXTRA_SUBJECT,ShareSubject);
+        startActivity(Intent.createChooser(SharingIntent,"Partager via :"));
+    }
+    /*private void Share(){
+        ApplicationInfo api = getApplicationContext().getApplicationInfo();
+        String apkpath = api.sourceDir;
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.setType("application/vnd.android.package-archive");
+        intent.putExtra(Intent.EXTRA_STREAM,Uri.fromFile(new File(apkpath)));
+        startActivity(Intent.createChooser(intent,"ShareVia"));
+    } */
+    //Share button
 
     //selected language getter
     //public static String getLanguage(){return language;}

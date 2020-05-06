@@ -9,13 +9,13 @@
 
     <ImageView
         android:id="@+id/descripton"
-        android:layout_width="357dp"
-        android:layout_height="237dp"
+        android:layout_width="302dp"
+        android:layout_height="220dp"
         android:layout_marginStart="10dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="44dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/rectangle" />
 
@@ -23,14 +23,14 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="388dp"
+        android:layout_marginBottom="216dp"
         android:background="@color/white"
         android:text="@string/description_de_la_place"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -64,8 +64,8 @@
 
     <ImageView
         android:id="@+id/ImageForBtn"
-        android:layout_width="373dp"
-        android:layout_height="86dp"
+        android:layout_width="320dp"
+        android:layout_height="69dp"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="89dp"
@@ -102,9 +102,9 @@
         android:layout_width="120dp"
         android:layout_height="141dp"
         android:layout_marginStart="150dp"
-        android:layout_marginTop="47dp"
         android:layout_marginEnd="141dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/place" />
@@ -113,7 +113,7 @@
         android:id="@+id/email_btn2"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="118dp"
+        android:layout_marginStart="72dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
@@ -127,7 +127,7 @@
         android:id="@+id/phone_btn2"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="164dp"
+        android:layout_marginStart="116dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
@@ -141,7 +141,7 @@
         android:id="@+id/linkedin_btn2"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="208dp"
+        android:layout_marginStart="160dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
@@ -155,7 +155,7 @@
         android:id="@+id/fax_btn2"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="252dp"
+        android:layout_marginStart="208dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
@@ -195,13 +195,14 @@
         android:id="@+id/textView"
         android:layout_width="296dp"
         android:layout_height="61dp"
-        android:layout_marginBottom="280dp"
+        android:layout_marginBottom="148dp"
         android:text="@string/la_partie_description_n_est_pas_encore_termin"
         android:textAlignment="center"
         android:textColor="@color/Black"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -43,8 +43,8 @@
 24-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:13:9-41
 25        android:roundIcon="@mipmap/ic_launcher_round"
 25-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:14:9-54
-26        android:supportsRtl="true"
-26-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:15:9-35
+26        android:supportsRtl="false"
+26-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:15:9-36
 27        android:testOnly="true"
 28        android:theme="@style/AppTheme.NoActionBar" >
 28-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:16:9-52

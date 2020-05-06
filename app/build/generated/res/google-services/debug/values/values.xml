@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="default_web_client_id" translatable="false">184072096894-noorq4g9hvc6uafgcg2k6l3mkb78tpc6.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://person-place.firebaseio.com</string>
+    <string name="firebase_database_url" translatable="false">https://person-place.firebaseio.com/</string>
     <string name="gcm_defaultSenderId" translatable="false">184072096894</string>
     <string name="google_api_key" translatable="false">AIzaSyAFzdYQJnNIkIDHmt-E7fSJLbTrM5MnIXs</string>
     <string name="google_app_id" translatable="false">1:184072096894:android:07e327b00af1b4e4389c2f</string>
