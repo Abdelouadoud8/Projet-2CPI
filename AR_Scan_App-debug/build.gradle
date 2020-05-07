@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('AR_Scan_App-debug.aar'))

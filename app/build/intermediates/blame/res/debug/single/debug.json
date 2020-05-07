@@ -488,6 +488,10 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4_app_icon.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\AR_Scan_App-debug\\build\\.transforms\\b4fb21a4885b0e7567dda6add6cc0b22\\AR_Scan_App-debug\\res\\mipmap-mdpi-v4\\app_icon.png"
+    },
+    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -1664,6 +1668,10 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\AR_Scan_App-debug\\build\\.transforms\\b4fb21a4885b0e7567dda6add6cc0b22\\AR_Scan_App-debug\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_ring_outer_path_animation.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
     },
@@ -1766,6 +1774,10 @@
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxhdpi_activation.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\layout-xxhdpi\\activation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\AR_Scan_App-debug\\build\\.transforms\\b4fb21a4885b0e7567dda6add6cc0b22\\AR_Scan_App-debug\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2134,6 +2146,10 @@
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_star4.png.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\drawable-v24\\star4.png"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\AR_Scan_App-debug\\build\\.transforms\\b4fb21a4885b0e7567dda6add6cc0b22\\AR_Scan_App-debug\\res\\mipmap-mdpi-v4\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
@@ -2614,6 +2630,10 @@
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_switch_thumb_material.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\AR_Scan_App-debug\\build\\.transforms\\b4fb21a4885b0e7567dda6add6cc0b22\\AR_Scan_App-debug\\res\\mipmap-mdpi-v4\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",

@@ -1584,8 +1584,12 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout toolbar
 menu main_menu
+mipmap app_icon
+mipmap app_icon_round
 mipmap default_user
 mipmap ic_launcher
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 mipmap person_four
 mipmap search_btn_bg
@@ -1663,6 +1667,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string find_us
 string firebase_database_url
+string game_view_content_description
 string gcm_defaultSenderId
 string good_enough
 string google_api_key
@@ -1903,6 +1908,7 @@ style Base_Widget_Design_TabLayout
 style Base_Widget_MaterialComponents_Chip
 style Base_Widget_MaterialComponents_TextInputEditText
 style Base_Widget_MaterialComponents_TextInputLayout
+style BaseUnityTheme
 style CardView
 style CardView_Dark
 style CardView_Light
@@ -2091,6 +2097,8 @@ style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense
+style UnityThemeSelector
+style UnityThemeSelector_Translucent
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

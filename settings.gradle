@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':AR_Scan_App-debug'
 rootProject.name='Projet-2CPI'

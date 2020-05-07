@@ -40,4 +40,7 @@ dependencies {
     //Glide Library
     implementation 'com.github.bumptech.glide:glide:4.0.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0'
+    //library
+    implementation project(':AR_Scan_App-debug')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
