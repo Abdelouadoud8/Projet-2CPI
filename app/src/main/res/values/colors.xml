@@ -7,4 +7,6 @@
     <color name="white">#FFFFFF</color>
     <color name="colorActive">#d4d4d4</color>
     <color name="colorStand">#F22096</color>
+    <color name="first">#B105F0</color>
+    <color name="second">#E14594</color>
 </resources>

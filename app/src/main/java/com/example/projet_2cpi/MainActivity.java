@@ -268,17 +268,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_language:
                 showChangeLanguageDialogue();
+                break;
             case R.id.nav_about:
+                OpenActivity(aboutus.class);
                 break;
             case R.id.nav_contact:
-                //ContactUs(this.navigationView);
+                ContactUs(this.navigationView);
                 break;
             case R.id.nav_share:
                 Share();
                 break;
             case R.id.nave_rate:
-                Intent intent1 = new Intent(MainActivity.this,Rating.class);
-                startActivity(intent1);
+                OpenActivity(Rating.class);
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
@@ -357,10 +358,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(intent);
     }
 
-    public void ContactUs(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:abdelouadoud.mahdaoui@gmail.com"));
-        startActivity(browserIntent);
-    }
+
 
     //Share button
     private void Share(){
@@ -372,17 +370,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         SharingIntent.putExtra(Intent.EXTRA_SUBJECT,ShareSubject);
         startActivity(Intent.createChooser(SharingIntent,"Partager via :"));
     }
-    /*private void Share(){
-        ApplicationInfo api = getApplicationContext().getApplicationInfo();
-        String apkpath = api.sourceDir;
-        Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.setType("application/vnd.android.package-archive");
-        intent.putExtra(Intent.EXTRA_STREAM,Uri.fromFile(new File(apkpath)));
-        startActivity(Intent.createChooser(intent,"ShareVia"));
-    } */
     //Share button
 
-    //selected language getter
-    //public static String getLanguage(){return language;}
+    /*****************************NAVIGATION-BAR BUTTONS FUNCTIONS START*********************************/
+    //contact us button
+    public void ContactUs(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:guiddini@contact.dz"));
+        startActivity(browserIntent);
+    }
+    //Open a new activity
+    public void OpenActivity(Class page){
+        Intent intent = new Intent(MainActivity.this,page);
+        startActivity(intent);
+    }
+    /*****************************NAVIGATION-BAR BUTTONS FUNCTIONS END*********************************/
 }
 

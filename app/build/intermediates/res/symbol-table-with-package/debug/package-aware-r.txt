@@ -680,6 +680,7 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color first
 color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
@@ -735,6 +736,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color second
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -1057,6 +1059,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable aboutus_bg
 drawable aced_btn
 drawable arrow
 drawable ased1302
@@ -1077,6 +1080,8 @@ drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button
 drawable button2
+drawable call
+drawable call1
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1105,8 +1110,10 @@ drawable design_snackbar_background
 drawable ellipse
 drawable email
 drawable facebook
+drawable facebook1
 drawable fax
 drawable google
+drawable google1
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_contact_black_24dp
@@ -1122,6 +1129,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_rate_black_24dp
 drawable ic_share_black_24dp
 drawable instagram
+drawable instagram1
 drawable linkedin
 drawable matin
 drawable mtrl_snackbar_background
@@ -1159,6 +1167,8 @@ drawable star5
 drawable toolbar_icon
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable us_bg
+drawable us_bg1
 font comfortaa
 font comfortaa_bold
 font comfortaa_light
@@ -1259,6 +1269,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id contact
 id container
 id content
 id contentPanel
@@ -1271,12 +1282,14 @@ id dayPicture
 id dayPicture2
 id decor_content_parent
 id default_activity_button
+id description
 id descripton
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id despcription_of_the_team
 id dialog_button
 id dimensions
 id direct
@@ -1293,6 +1306,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id facebook
 id facebook_btn
 id fax_btn
 id fax_btn2
@@ -1306,6 +1320,7 @@ id forever
 id ghost_view
 id go_profile_btn
 id gone
+id google
 id google_btn
 id group_divider
 id groups
@@ -1317,8 +1332,10 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id image_btn
 id info
+id instagram
 id instagram_btn
 id invisible
 id italic
@@ -1370,6 +1387,7 @@ id parent
 id parentPanel
 id parent_matrix
 id percent
+id phone
 id phone_btn
 id phone_btn2
 id pin
@@ -1443,6 +1461,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
+id team
 id text
 id text2
 id textSpacerNoButtons
@@ -1461,6 +1480,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id titlerate
+id titre
 id toolbar
 id top
 id topPanel
@@ -1539,6 +1559,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout aboutus
 layout activation
 layout activity_main
 layout custom_dialog

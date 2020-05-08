@@ -71,6 +71,7 @@
         </activity>
         <activity android:name="com.example.projet_2cpi.activation" />
         <activity android:name="com.example.projet_2cpi.Rating" />
+        <activity android:name="com.example.projet_2cpi.aboutus" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
