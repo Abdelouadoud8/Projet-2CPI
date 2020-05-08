@@ -21,7 +21,7 @@
         android:layout_height="250dp"
         android:layout_marginStart="110dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="220dp"
+        android:layout_marginBottom="224dp"
         android:src="@drawable/star3"
         app:layout_constraintBottom_toTopOf="@id/btnfeedback"
         app:layout_constraintEnd_toEndOf="@id/btnfeedback"
@@ -127,7 +127,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="172dp"
         android:layout_marginEnd="169dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="76dp"
         android:text="@string/find_us"
         android:textColor="@color/Black"
         android:textSize="24sp"
@@ -147,7 +147,7 @@
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="FacebookClique"
-        android:src="@drawable/facebook"
+        android:src="@drawable/facebook1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -161,7 +161,7 @@
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="InstagramClique"
-        android:src="@drawable/instagram"
+        android:src="@drawable/instagram1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -175,7 +175,7 @@
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="GoogleClique"
-        android:src="@drawable/google"
+        android:src="@drawable/google1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -183,9 +183,9 @@
         android:id="@+id/ratingtitle"
         android:layout_width="171dp"
         android:layout_height="74dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ratingtitle" />

@@ -21,28 +21,25 @@
         android:layout_height="250dp"
         android:layout_marginStart="110dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="224dp"
         android:src="@drawable/star3"
         app:layout_constraintBottom_toTopOf="@id/btnfeedback"
         app:layout_constraintEnd_toEndOf="@id/btnfeedback"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="220dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="196dp"
+        android:layout_marginBottom="240dp"
         android:background="@drawable/bgrate"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
-
 
         <TextView
             android:id="@+id/titlerate"
@@ -54,6 +51,7 @@
             android:textColor="@color/Black"
             android:textSize="17sp"
             android:textStyle="bold" />
+
 
         <RatingBar
             android:id="@+id/rateStars"
@@ -110,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="124dp"
+        android:layout_marginBottom="150dp"
         android:background="@drawable/mybutton"
         android:fontFamily="@font/sarala"
         android:text="@string/submit"
@@ -121,7 +119,6 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -137,20 +134,20 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/facebook_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="FacebookClique"
-        android:src="@drawable/facebook"
+        android:src="@drawable/facebook1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -158,13 +155,13 @@
         android:id="@+id/instagram_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="156dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="InstagramClique"
-        android:src="@drawable/instagram"
+        android:src="@drawable/instagram1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -172,13 +169,13 @@
         android:id="@+id/google_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="220dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="GoogleClique"
-        android:src="@drawable/google"
+        android:src="@drawable/google1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -186,8 +183,9 @@
         android:id="@+id/ratingtitle"
         android:layout_width="171dp"
         android:layout_height="74dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ratingtitle" />

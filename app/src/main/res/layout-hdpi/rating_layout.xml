@@ -17,15 +17,15 @@
 
     <ImageView
         android:id="@+id/starone"
-        android:layout_width="283dp"
-        android:layout_height="287dp"
+        android:layout_width="190dp"
+        android:layout_height="250dp"
         android:layout_marginStart="110dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="352dp"
+        android:layout_marginBottom="224dp"
         android:src="@drawable/star3"
         app:layout_constraintBottom_toTopOf="@id/btnfeedback"
         app:layout_constraintEnd_toEndOf="@id/btnfeedback"
-        app:layout_constraintHorizontal_bias="0.778"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
@@ -40,6 +40,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/titlerate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/you_liked_the_app_please_give_us_a_feedback"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
 
         <RatingBar
@@ -116,27 +127,27 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="172dp"
         android:layout_marginEnd="169dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="76dp"
         android:text="@string/find_us"
         android:textColor="@color/Black"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton
         android:id="@+id/facebook_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="192dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="FacebookClique"
-        android:src="@drawable/facebook"
+        android:src="@drawable/facebook1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -144,13 +155,13 @@
         android:id="@+id/instagram_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="276dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginStart="190dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="InstagramClique"
-        android:src="@drawable/instagram"
+        android:src="@drawable/instagram1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -158,38 +169,24 @@
         android:id="@+id/google_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="356dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
         android:focusedByDefault="false"
         android:onClick="GoogleClique"
-        android:src="@drawable/google"
+        android:src="@drawable/google1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/ratingtitle"
-        android:layout_width="223dp"
-        android:layout_height="122dp"
-        android:layout_marginTop="36dp"
+        android:layout_width="171dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.023"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ratingtitle" />
-
-    <TextView
-        android:id="@+id/titlerate"
-        android:layout_width="579dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="428dp"
-        android:text="@string/you_liked_the_app_please_give_us_a_feedback"
-        android:textAlignment="center"
-        android:textColor="@color/Black"
-        android:textSize="17sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

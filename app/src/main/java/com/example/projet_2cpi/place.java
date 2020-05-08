@@ -67,16 +67,18 @@ public class place extends AppCompatActivity {
                 //String cycle = dataSnapshot.child(Child).child("cycle").getValue().toString();
                 String employe = dataSnapshot.child(Child).child("employe").getValue().toString();
                 //String employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
-                switch (Language2) {
-                    case "fr":
-                        employe_name = dataSnapshot.child(employe).child("fr").child("name").getValue().toString();
-                        break;
-                    case "en":
-                        employe_name = dataSnapshot.child(employe).child("en").child("name").getValue().toString();
-                        break;
-                    case "ar":
-                        employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
-                        break;
+                if (!employe.equals("Null")){
+                    switch (Language2) {
+                        case "fr":
+                            employe_name = dataSnapshot.child(employe).child("fr").child("name").getValue().toString();
+                            break;
+                        case "en":
+                            employe_name = dataSnapshot.child(employe).child("en").child("name").getValue().toString();
+                            break;
+                        case "ar":
+                            employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
+                            break;
+                    }
                 }
                 switch (Language2) {
                     case "fr":
