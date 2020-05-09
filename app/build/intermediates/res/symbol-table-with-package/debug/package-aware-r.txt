@@ -1295,6 +1295,8 @@ id dimensions
 id direct
 id disableHome
 id drawer_layout
+id droits
+id droits_content
 id edit_query
 id email_btn
 id email_btn2
@@ -1500,6 +1502,8 @@ id username2
 id view
 id view_offset_helper
 id visible
+id whatwedo
+id whatwedo_content
 id wide
 id withText
 id wrap
@@ -1650,6 +1654,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string about_us
+string aboutus_content
 string activer_la_cam_ra
 string activer_la_localisation
 string app_name
@@ -1684,6 +1689,8 @@ string contact_us
 string default_web_client_id
 string description_de_la_place
 string dimanche
+string droits
+string droits_content
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string find_us
@@ -1711,6 +1718,8 @@ string navigation_drawer_close
 string navigation_drawer_open
 string nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail
 string not_connected
+string our_team
+string our_team_content
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1729,6 +1738,8 @@ string title_activity_place
 string title_activity_profile
 string username
 string very_bad
+string whatwedo
+string whatwedo_content
 string you_liked_the_app_please_give_us_a_feedback
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

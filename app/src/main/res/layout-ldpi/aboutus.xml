@@ -51,7 +51,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:gravity="center"
-                    android:text="Guiddini is an AR application that helps you discover and find your way in ESI-SBA school by providing  you  with  information  about  all   places  and employers."
+                    android:text="@string/aboutus_content"
                     android:textColor="@color/Black"
                     android:textSize="16sp" />
             </LinearLayout>
@@ -70,11 +70,12 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center_horizontal"
                     android:padding="5dp"
-                    android:text="OUR TEAM"
+                    android:text="@string/our_team"
                     android:textAllCaps="true"
                     android:textColor="@color/white"
                     android:textSize="40sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
+
 
                 <TextView
                     android:id="@+id/despcription_of_the_team"
@@ -83,7 +84,72 @@
                     android:layout_marginTop="10dp"
                     android:gravity="center"
                     android:paddingBottom="30dp"
-                    android:text="Our team is composed of 6 students from ESI-SBA that made Guiddini app as 2nd year project"
+                    android:text="@string/our_team_content"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/whatwedo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:padding="5dp"
+                    android:text="@string/whatwedo"
+                    android:textAllCaps="true"
+                    android:textColor="@color/second"
+                    android:textSize="44sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/whatwedo_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="@string/whatwedo_content"
+                    android:textColor="@color/Black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/aboutus_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/droits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/droits"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="40sp"
+                    android:textStyle="bold"/>
+
+
+                <TextView
+                    android:id="@+id/droits_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:paddingBottom="30dp"
+                    android:text="@string/droits_content"
                     android:textAllCaps="false"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
@@ -92,13 +158,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="02dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/contact"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
                     android:gravity="center_horizontal"
                     android:padding="10dp"
                     android:text="@string/contact_us"

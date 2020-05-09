@@ -42,5 +42,11 @@
     <string name="activer_la_localisation"> تفعيل الموقع </string>
     <string name="connected">متصل</string>
     <string name="not_connected">تأكد من الإتصال بالإنترنت</string>
+    <string name="our_team">فريقنا</string>
+    <string name="our_team_content">فريقنا متكون من 6 طلاب من المدرسة العليا للإعلام الآلي بسيدي بلعباس, قاموا بإنشاء تطبيق Guiddini لمشروع السنة الثانية</string>
+    <string name="aboutus_content">تطبيق Guiddini هو تطبيق يساعدك في التعرف و إيحاد طريقك في المدرسة العليا للإعلام الآلي بسيدي بلعباس عن طريق وضع بين يدي المستخدم مجموعة من المعلومات حول كل الأماكن في المدرسة و كذلك العاملين</string>
+    <string name="whatwedo">ماذا نقدم</string>
+    <string name="whatwedo_content">تطبيقنا يقدم للمستخدم المعلومات حول كل الأماكن المدرسة العليا للإعلام الآلي بسيدي بلعباس مرفوقة بجميع التفاصيل و كذلك الموقع الجغؤافي للمكان, كما أنه يمنح معلومات حول العمال مثل (الأسماء - وسائل التواصل معهم - أوقات العمل…)</string>
+    <string name="droits">حقوق النشر</string>
+    <string name="droits_content">كل حقوق النشر محفوظة - 2020 ©</string>
 </resources>
-

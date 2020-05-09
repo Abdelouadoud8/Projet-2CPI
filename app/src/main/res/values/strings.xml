@@ -45,4 +45,11 @@
     <string name="activer_la_localisation">Activate the localisation</string>
     <string name="connected">connected</string>
     <string name="not_connected">Please make sure to connect to internet</string>
+    <string name="our_team">OUR TEAM</string>
+    <string name="our_team_content">Our team is composed of 6 students from ESI-SBA that made Guiddini app as 2nd year project</string>
+    <string name="aboutus_content">Guiddini is an AR application that helps you discover and find your way in ESI-SBA school by providing you with information about all places and employers.</string>
+    <string name="whatwedo">WHAT WE DO</string>
+    <string name="whatwedo_content">Our application give provide a user with all places in ESI-SBA with all their details and geographic place, it also gives informations about workers  such us (names - contact - time of work…)</string>
+    <string name="droits">COPYRIGHT</string>
+    <string name="droits_content">© COPYRIGHT 2020 - All Rights Reserved</string>
 </resources>

@@ -13,14 +13,15 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class aboutus extends AppCompatActivity{
-    TextView AboutUs;
+    TextView AboutUs,WhatWeDo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.aboutus);
 
         AboutUs = (TextView) findViewById(R.id.titre);
-
+        WhatWeDo = (TextView) findViewById(R.id.whatwedo);
+        /********************************About us button********************************/
         TextPaint paint = AboutUs.getPaint();
         float width = paint.measureText("ABOUT US");
 
@@ -30,6 +31,21 @@ public class aboutus extends AppCompatActivity{
                         Color.parseColor("#E14594"),
                 }, null, Shader.TileMode.CLAMP);
         AboutUs.getPaint().setShader(textShader);
+
+        /********************************About us button********************************/
+
+        /********************************What we do********************************/
+        TextPaint paint1 = WhatWeDo.getPaint();
+        float width1 = paint1.measureText("ABOUT US");
+
+        Shader textShader1 = new LinearGradient(0, 0, width1, WhatWeDo.getTextSize(),
+                new int[]{
+                        Color.parseColor("#B105F0"),
+                        Color.parseColor("#E14594"),
+                }, null, Shader.TileMode.CLAMP);
+        WhatWeDo.getPaint().setShader(textShader1);
+        /********************************What we do********************************/
+
     }
 
     public void FacebookClique(View view) {

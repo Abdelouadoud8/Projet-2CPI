@@ -40,5 +40,12 @@
     <string name="activer_la_localisation">Activer la localisation</string>
     <string name="connected">connecté</string>
     <string name="not_connected">Assurez que vous etes connectez à internet</string>
+    <string name="our_team">NOTRE EQUIPE</string>
+    <string name="our_team_content">Notre équipe est compsée de 6 étudiants de l\'ESI-SBA qui ont crées l\'application Guiddini pour le projet du 2éme année</string>
+    <string name="aboutus_content">Guiddini est une application de réalité augmentée qui vous aide à découvrir et trouver votre chemin dans l\'ESI-SBA par vous fournir des informations sur toutes les places les emplyers de l\'école.</string>
+    <string name="whatwedo">ON FAIT QUOI</string>
+    <string name="whatwedo_content">Notre application founit vers l\'utilisateur toutes les places dans l\'ESI-SBA avec toutes les details et aussi la leurs place geographique, elle aussi donne des information sur les employers par exemeple (noms - contact - heurs de travail…)</string>
+    <string name="droits">COPYRIGHT</string>
+    <string name="droits_content">© COPYRIGHT 2020 - Tous Droits Réservés</string>
 </resources>
 

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\3f2791d3ecf41ed9e54a91eddcfa2ad3\\material-1.0.0\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_checkbox_to_unchecked_icon_null_animation.xml.flat",
@@ -244,12 +244,12 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\3f2791d3ecf41ed9e54a91eddcfa2ad3\\material-1.0.0\\res\\layout\\mtrl_layout_snackbar_include.xml"
-    },
-    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout-xxhdpi_aboutus.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\layout-xxhdpi\\aboutus.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\3f2791d3ecf41ed9e54a91eddcfa2ad3\\material-1.0.0\\res\\layout\\mtrl_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
