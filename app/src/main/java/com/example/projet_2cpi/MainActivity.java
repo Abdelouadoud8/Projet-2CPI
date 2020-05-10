@@ -24,9 +24,11 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -72,8 +74,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-    String Language;
-
 
     private DatabaseReference mUserDatabase;
     Query firebaseSearchQuery;
@@ -87,9 +87,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         loadLocale();
         setContentView(R.layout.activity_main);
 
+        /*****************************HOOKS*********************************/
+        drawerLayout =findViewById(R.id.drawer_layout);
+        navigationView =findViewById(R.id.nav_view);
+        toolbar =(Toolbar) findViewById(R.id.toolbar);
+        mSearchField = (EditText) findViewById(R.id.search_field);
+        mSearchBtn = (ImageButton) findViewById(R.id.search_btn);
+        mResultList = (RecyclerView) findViewById(R.id.result_list);
 
 
-        /*----------------------Autorisations----------------------*/
+        /*****************************Autorisation*********************************/
+
         if (ContextCompat.checkSelfPermission(MainActivity.this,
                 Manifest.permission.ACCESS_FINE_LOCATION) + ContextCompat.checkSelfPermission(MainActivity.this,
                 Manifest.permission.CAMERA)!= PackageManager.PERMISSION_GRANTED){
@@ -110,15 +118,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             }
         }
 
-        /*----------------------Autorisations----------------------*/
-
-
-        /*----------------------Hooks----------------------*/
-        drawerLayout =findViewById(R.id.drawer_layout);
-        navigationView =findViewById(R.id.nav_view);
-        toolbar =(Toolbar) findViewById(R.id.toolbar);
-
-        /*--------------------------SEARCH--------------------------*/
+        /*******************************SEARCH*********************************/
 
         mUserDatabase = FirebaseDatabase.getInstance().getReference("Users");
 
@@ -139,52 +139,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             public void onCancelled(DatabaseError error) {
                 System.err.println("Listener was cancelled");
             }
-        });
-
-
-        mSearchField = (EditText) findViewById(R.id.search_field);
-        mSearchBtn = (ImageButton) findViewById(R.id.search_btn);
-
-        mResultList = (RecyclerView) findViewById(R.id.result_list);
+        }); // test if connected or not
 
         result = new ArrayList<Users>();
         mSearchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                result.clear();
-                String searchText = mSearchField.getText().toString();
-                // firebaseUserSearch(searchText);
-                Query query = mUserDatabase.orderByChild("name").startAt(searchText).endAt(searchText + "\uf8ff");;
-                // result = new ArrayList<Users>();
-                query.addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
-                        if (dataSnapshot.exists()) {
-                            for (DataSnapshot messageSnapshot: dataSnapshot.getChildren()) {
-                                Users u = messageSnapshot.getValue(Users.class);
-                                result.add(u);
-                                //  Toast.makeText(MainActivity.this,result.size()+"", Toast.LENGTH_SHORT).show();
-                                mResultList.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
-                                mResultList.setAdapter(new RecyclerViewAdapter(result));
-                            }
-                        }
-                    }
-
-                    @Override
-                    public void onCancelled(DatabaseError databaseError) {
-
-                    }
-                });
+                SearchResultat();
             }
         });
 
-        /*--------------------------SEARCH--------------------------*/
-
-        /*--------------------------NAV-BAR--------------------------*/
-
+        /*******************************NAV-BAR*********************************/
         //Toolbar
         setSupportActionBar(toolbar);
-
 
         //Navigation drawer menu
         navigationView.bringToFront();
@@ -195,9 +162,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setCheckedItem(R.id.nav_home);
 
-        /*--------------------------NAV-BAR--------------------------*/
+        /*******************************SET DEFAULT LANGUAGE FR*********************************/
         Language_test = Languages.getLanguage();
-
         //default language
         if (Language_test == null){
             Languages.setLanguage("fr");
@@ -206,8 +172,33 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
+    /*******************************FOR AUTORISATION*********************************/
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == 1) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                if ((ContextCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED)
+                        && (ContextCompat.checkSelfPermission(MainActivity.this,
+                        Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED)) {
+                    Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
+                } else {
+                    passto();
 
+                }
+            } else {
+                passto();
+            }
+        }
+    }
 
+    private void passto(){
+        Intent intent = new Intent(this, activation.class);
+        startActivity(intent);
+    }
+
+    /*******************************FOR SEARCH*********************************/
     @Override
     protected void onStart() {
         super.onStart();
@@ -248,7 +239,45 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 
-    //for NAV-bar
+    //search function
+    public void SearchResultat(){
+        result.clear();
+        String searchText = mSearchField.getText().toString();
+        // firebaseUserSearch(searchText);
+        Query query = mUserDatabase.orderByChild("name").startAt(searchText).endAt(searchText + "\uf8ff");;
+        // result = new ArrayList<Users>();
+        query.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if (dataSnapshot.exists()) {
+                    for (DataSnapshot messageSnapshot: dataSnapshot.getChildren()) {
+                        Users u = messageSnapshot.getValue(Users.class);
+                        result.add(u);
+                        //  Toast.makeText(MainActivity.this,result.size()+"", Toast.LENGTH_SHORT).show();
+                        mResultList.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
+                        mResultList.setAdapter(new RecyclerViewAdapter(result));
+                    }
+                }
+            }
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        });
+    }
+
+    @Override //Search when click on Enter button
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        switch (keyCode) {
+            case KeyEvent.KEYCODE_ENTER:
+                SearchResultat();
+                return true;
+            default:
+                return super.onKeyUp(keyCode, event);
+        }
+    }
+
+
+    /*******************************FOR NAV-BAR*********************************/
     @Override
     public void onBackPressed() {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)){
@@ -285,7 +314,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
 
-    //for language button
+    /*******************************FOR LANGUAGE BUTTON*********************************/
     private void showChangeLanguageDialogue() {
         final String [] listItems={"Français","English","عربي"};
         AlertDialog.Builder mBuilder=new AlertDialog.Builder(MainActivity.this);
@@ -332,35 +361,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setLocale(langue);
     }
 
-    //For Autorisations
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        if (requestCode == 1) {
-            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                if ((ContextCompat.checkSelfPermission(MainActivity.this,
-                        Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED)
-                        && (ContextCompat.checkSelfPermission(MainActivity.this,
-                        Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED)) {
-                    Toast.makeText(this, "Permission Granted", Toast.LENGTH_SHORT).show();
-                } else {
-                    passto();
-
-                }
-            } else {
-                passto();
-            }
-        }
-    }
-
-    private void passto(){
-        Intent intent = new Intent(this, activation.class);
-        startActivity(intent);
-    }
-
-
-
-    //Share button
+    /*******************************FOR SHARE BUTTON*********************************/
     private void Share(){
         Intent SharingIntent = new Intent(Intent.ACTION_SEND);
         SharingIntent.setType("text/plain");
@@ -378,11 +379,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:guiddini@contact.dz"));
         startActivity(browserIntent);
     }
-    //Open a new activity
+
+
+    /*****************************OPEN ACTIVITY FUNCTION*********************************/
     public void OpenActivity(Class page){
         Intent intent = new Intent(MainActivity.this,page);
         startActivity(intent);
     }
-    /*****************************NAVIGATION-BAR BUTTONS FUNCTIONS END*********************************/
+
+
 }
 
