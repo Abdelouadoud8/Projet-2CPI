@@ -1619,6 +1619,7 @@ mipmap ic_launcher_round
 mipmap person_four
 mipmap search_btn_bg
 mipmap search_button
+mipmap star3
 string Aller_vers_cet_endroit
 string Amazing
 string Awsome
@@ -1712,6 +1713,7 @@ string jeudi
 string la_partie_description_n_est_pas_encore_termin
 string lundi
 string mardi
+string matin
 string mercredi
 string mtrl_chip_close_icon_content_description
 string navigation_drawer_close
@@ -1732,6 +1734,7 @@ string search_here
 string search_menu_title
 string share_the_app
 string sharing
+string soir
 string status_bar_notification_info_overflow
 string submit
 string title_activity_place

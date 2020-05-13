@@ -52,4 +52,7 @@
     <string name="whatwedo_content">Our application give provide a user with all places in ESI-SBA with all their details and geographic place, it also gives informations about workers  such us (names - contact - time of work…)</string>
     <string name="droits">COPYRIGHT</string>
     <string name="droits_content">© COPYRIGHT 2020 - All Rights Reserved</string>
+    <string name="matin">Morning</string>
+    <string name="soir">Afternoon</string>
 </resources>
+

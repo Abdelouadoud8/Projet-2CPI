@@ -47,5 +47,7 @@
     <string name="whatwedo_content">Notre application founit vers l\'utilisateur toutes les places dans l\'ESI-SBA avec toutes les details et aussi la leurs place geographique, elle aussi donne des information sur les employers par exemeple (noms - contact - heurs de travail…)</string>
     <string name="droits">COPYRIGHT</string>
     <string name="droits_content">© COPYRIGHT 2020 - Tous Droits Réservés</string>
+    <string name="matin">Matin</string>
+    <string name="soir">Soir</string>
 </resources>
 

@@ -127,16 +127,10 @@ public class profile extends AppCompatActivity {
                         NB.setText("");
                         switch (Language) {
                             case "fr":
-                                Matin.setText("Matin :");
-                                Soir.setText("Soir :");
-                                break;
                             case "en":
-                                Matin.setText("Morning :");
-                                Soir.setText("Evening :");
-                                break;
                             case "ar":
-                                Matin.setText("الصباح :");
-                                Soir.setText("المساء :");
+                                Matin.setText(R.string.matin);
+                                Soir.setText(R.string.soir);
                                 break;
                         }
                         /* Matin.setText("Matin :");
@@ -186,16 +180,10 @@ public class profile extends AppCompatActivity {
                         NB.setText("");
                         switch (Language) {
                             case "fr":
-                                Matin.setText("Matin :");
-                                Soir.setText("Soir :");
-                                break;
                             case "en":
-                                Matin.setText("Morning :");
-                                Soir.setText("Evening :");
-                                break;
                             case "ar":
-                                Matin.setText("الصباح :");
-                                Soir.setText("المساء :");
+                                Matin.setText(R.string.matin);
+                                Soir.setText(R.string.soir);
                                 break;
                         }
                         /* Matin.setText("Matin :");
@@ -246,17 +234,13 @@ public class profile extends AppCompatActivity {
                         NB.setText("");
                         switch (Language) {
                             case "fr":
-                                Matin.setText("Matin :");
-                                Soir.setText("Soir :");
-                                break;
                             case "en":
-                                Matin.setText("Morning :");
-                                Soir.setText("Evening :");
-                                break;
                             case "ar":
-                                Matin.setText("الصباح :");
-                                Soir.setText("المساء :");
+                                Matin.setText(R.string.matin);
+                                Soir.setText(R.string.soir);
                                 break;
+                            default:
+                                throw new IllegalStateException("Unexpected value: " + Language);
                         }
                         /* Matin.setText("Matin :");
                         Soir.setText("Soir"); */
@@ -306,16 +290,16 @@ public class profile extends AppCompatActivity {
                         NB.setText("");
                         switch (Language) {
                             case "fr":
-                                Matin.setText("Matin :");
-                                Soir.setText("Soir :");
+                                Matin.setText(R.string.matin);
+                                Soir.setText(R.string.soir);
                                 break;
                             case "en":
-                                Matin.setText("Morning :");
-                                Soir.setText("Evening :");
+                                Matin.setText(R.string.matin);
+                                Soir.setText(R.string.soir);
                                 break;
                             case "ar":
-                                Matin.setText("الصباح :");
-                                Soir.setText("المساء :");
+                                Matin.setText(R.string.matin);
+                                Soir.setText(R.string.soir);
                                 break;
                         }
                         /* Matin.setText("Matin :");
@@ -366,16 +350,10 @@ public class profile extends AppCompatActivity {
                         NB.setText("");
                         switch (Language) {
                             case "fr":
-                                Matin.setText("Matin :");
-                                Soir.setText("Soir :");
-                                break;
-                            case "en":
-                                Matin.setText("Morning :");
-                                Soir.setText("Evening :");
-                                break;
                             case "ar":
-                                Matin.setText("الصباح :");
-                                Soir.setText("المساء :");
+                            case "en":
+                                Matin.setText(R.string.matin);
+                                Soir.setText(R.string.soir);
                                 break;
                         }
                         String horaire = dataSnapshot.child("Jeudi").child("matin").getValue().toString();

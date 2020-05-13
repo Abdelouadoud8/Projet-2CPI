@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\AsmaaTsubaki\\Desktop\\Guidini_App2\\Projet-2CPI-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\AsmaaTsubaki\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\331630a23dfa1f0594bcf54d5352aa36\\core-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\AsmaaTsubaki\\.gradle\\caches\\transforms-2\\files-2.1\\331630a23dfa1f0594bcf54d5352aa36\\core-1.1.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

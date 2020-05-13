@@ -3,31 +3,31 @@
 3    package="com.example.projet_2cpi.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:5:5-74
+5-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:5:15-41
+6-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:5:42-71
+7-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:11:5-15:73
+9-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:11:5-15:73
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:11:22-76
+10-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:14:22-52
+11-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:13:22-53
+12-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:13:22-53
 13        android:label="Tests for com.example.projet_2cpi"
-13-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:15:22-71
+13-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:15:22-71
 14        android:targetPackage="com.example.projet_2cpi" />
-14-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:12:22-69
+14-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:12:22-69
 15
 16    <application android:debuggable="true" >
-16-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:7:5-9:19
-16-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:7:18-43
+16-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:7:5-9:19
+16-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:7:18-43
 17        <uses-library android:name="android.test.runner" />
-17-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:8:9-60
-17-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2893842918303198985.xml:8:23-57
+17-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:8:9-60
+17-->C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger6213951999939124764.xml:8:23-57
 18    </application>
 19
 20</manifest>
