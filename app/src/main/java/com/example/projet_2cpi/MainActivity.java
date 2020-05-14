@@ -69,9 +69,11 @@ import javax.security.auth.Subject;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     static final int REQUEST_CODE = 123;
-    private EditText mSearchField;
+    //private EditText mSearchField;
     private ImageButton mSearchBtn;
     private RecyclerView mResultList;
+    AutoCompleteTextView mSearchField ;
+    private static final String[] ResultSuggestions = new String[] {};
     //Variables for nav-bar
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -83,12 +85,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     List<Users> result;
     private String Language_test;
 
-    private static final String[] COUNTRIES = new String[] {
-            "Bureau du chef de cycle préparatoire", "Bureau du directeur de l’École\u200E\u200E"
-            , "Direction de l'école", "Direction des enseignement, des diplômes et de la formation continue"
-            , "Mahdaoui Abdelouadoud", "Mohamed Aced Réda" , "Secrétariat de direction" , "Service de la formation continue"
-            , "Service de scolarité" ,"Service des diplôme" ,"Sidi Mohammed Benslimane"
-    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,15 +97,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawerLayout =findViewById(R.id.drawer_layout);
         navigationView =findViewById(R.id.nav_view);
         toolbar =(Toolbar) findViewById(R.id.toolbar);
-        mSearchField = (EditText) findViewById(R.id.search_field);
+        mSearchField = findViewById(R.id.search_field);
         mSearchBtn = (ImageButton) findViewById(R.id.search_btn);
         mResultList = (RecyclerView) findViewById(R.id.result_list);
 
-        /**TEST SUGGESTION**/
-        AutoCompleteTextView editText = findViewById(R.id.search_field);
-        ArrayAdapter<String > adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1,COUNTRIES);
-        editText.setAdapter(adapter);
         /*****************************Autorisation*********************************/
 
         if (ContextCompat.checkSelfPermission(MainActivity.this,
@@ -161,6 +153,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 SearchResultat();
             }
         });
+
+        /*******************************SEARCH SUGGESTION*******************************/
+        String[] ResultSuggestions = getResources().getStringArray(R.array.ResultSuggestions);
+
+        ArrayAdapter<String > adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,ResultSuggestions);
+        mSearchField.setAdapter(adapter);
 
         /*******************************NAV-BAR*********************************/
         //Toolbar

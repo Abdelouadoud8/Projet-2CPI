@@ -38,10 +38,11 @@ int animator mtrl_fab_hide_motion_spec 0x7f020006
 int animator mtrl_fab_show_motion_spec 0x7f020007
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f020008
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020009
-int array com_google_android_gms_fonts_certs 0x7f030000
-int array com_google_android_gms_fonts_certs_dev 0x7f030001
-int array com_google_android_gms_fonts_certs_prod 0x7f030002
-int array preloaded_fonts 0x7f030003
+int array ResultSuggestions 0x7f030000
+int array com_google_android_gms_fonts_certs 0x7f030001
+int array com_google_android_gms_fonts_certs_dev 0x7f030002
+int array com_google_android_gms_fonts_certs_prod 0x7f030003
+int array preloaded_fonts 0x7f030004
 int attr actionBarDivider 0x7f040000
 int attr actionBarItemBackground 0x7f040001
 int attr actionBarPopupTheme 0x7f040002

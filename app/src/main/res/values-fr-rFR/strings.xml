@@ -49,5 +49,18 @@
     <string name="droits_content">© COPYRIGHT 2020 - Tous Droits Réservés</string>
     <string name="matin">Matin</string>
     <string name="soir">Soir</string>
+
+    <string-array name="ResultSuggestions">
+        <item>Bureau du chef de cycle préparatoire</item>
+        <item>Bureau du directeur de l\’école</item>
+        <item>Direction de l\'école</item>
+        <item>Direction des enseignement, des diplômes et de la formation continue</item>
+        <item>Mohamed Aced Réda</item>
+        <item>Secrétariat de direction</item>
+        <item>Service de la formation continue</item>
+        <item>Service de scolarité</item>
+        <item>Service des diplôme</item>
+        <item>Sidi Mohammed Benslimane</item>
+    </string-array>
 </resources>
 

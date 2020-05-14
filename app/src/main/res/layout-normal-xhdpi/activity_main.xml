@@ -59,7 +59,7 @@
             android:paddingBottom="10dp"
             android:textColor="#999999"
             android:textSize="16sp"
-            android:completionThreshold="1"
+            android:completionThreshold="2"
             />
 
         <ImageButton

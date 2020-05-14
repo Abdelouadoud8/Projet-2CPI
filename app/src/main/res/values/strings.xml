@@ -54,5 +54,19 @@
     <string name="droits_content">© COPYRIGHT 2020 - All Rights Reserved</string>
     <string name="matin">Morning</string>
     <string name="soir">Afternoon</string>
+
+
+    <string-array name="ResultSuggestions">
+        <item>Office of the Preparatory Cycle Leader</item>
+        <item>Office of the director of school</item>
+        <item>Direction of school</item>
+        <item>Direction of education, diplomas and continuing education</item>
+        <item>Mohamed Aced Réda</item>
+        <item>Secretariat of direction</item>
+        <item>Continuing education service</item>
+        <item>Scholar service</item>
+        <item>Diploma service</item>
+        <item>Sidi Mohammed Benslimane</item>
+    </string-array>
 </resources>
 

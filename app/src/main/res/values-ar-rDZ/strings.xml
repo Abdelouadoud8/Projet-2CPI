@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">
-
-    </string>
+    <string name="app_name"> </string>
     <string name="place">المكان</string>
     <string name="search_here">ابحث هنا</string>
     <string name="home">الرئيسي</string>
@@ -52,4 +50,17 @@
     <string name="droits_content">كل حقوق النشر محفوظة - 2020 ©</string>
     <string name="matin">الصباح</string>
     <string name="soir">المساء</string>
+
+    <string-array name="ResultSuggestions">
+        <item>مكتب رئيس القسم التحضيري</item>
+        <item>مكتب مدير المدرسة</item>
+        <item>إدارة المدرسة</item>
+        <item>إدارة التربية والدبلومات والتعليم المستمر</item>
+        <item>محمد أسد رضا</item>
+        <item>سكرتارية الإدارة</item>
+        <item>خدمة التعليم المستمر</item>
+        <item>خدمة الدراسية</item>
+        <item>خدمة الشهادات</item>
+        <item>سيدي محمد بن سليمان</item>
+    </string-array>
 </resources>
