@@ -29,6 +29,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -81,6 +83,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     List<Users> result;
     private String Language_test;
 
+    private static final String[] COUNTRIES = new String[] {
+            "Bureau du chef de cycle préparatoire", "Bureau du directeur de l’École\u200E\u200E"
+            , "Direction de l'école", "Direction des enseignement, des diplômes et de la formation continue"
+            , "Mahdaoui Abdelouadoud", "Mohamed Aced Réda" , "Secrétariat de direction" , "Service de la formation continue"
+            , "Service de scolarité" ,"Service des diplôme" ,"Sidi Mohammed Benslimane"
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,7 +104,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mSearchBtn = (ImageButton) findViewById(R.id.search_btn);
         mResultList = (RecyclerView) findViewById(R.id.result_list);
 
-
+        /**TEST SUGGESTION**/
+        AutoCompleteTextView editText = findViewById(R.id.search_field);
+        ArrayAdapter<String > adapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,COUNTRIES);
+        editText.setAdapter(adapter);
         /*****************************Autorisation*********************************/
 
         if (ContextCompat.checkSelfPermission(MainActivity.this,
