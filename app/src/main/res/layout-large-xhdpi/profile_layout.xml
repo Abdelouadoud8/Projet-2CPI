@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:defaultFocusHighlightEnabled="true"
+    tools:context=".profile">
+
+    <ImageView
+        android:id="@+id/U_P_picture"
+        android:layout_width="109dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/dayPicture"
+        android:layout_width="457dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/dayPicture2"
+        android:layout_width="457dp"
+        android:layout_height="93dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/poste"
+        android:layout_width="269dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="176dp"
+        android:fontFamily="@font/sarala"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="216dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="153dp"
+        android:fontFamily="@font/comfortaa_light"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="260dp"
+        android:layout_marginBottom="68dp"
+        android:gravity="center_horizontal"
+        android:text="@string/contact"
+        android:textColor="@color/Black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="424dp"
+        android:text="@string/horaires_du_travail"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="393dp"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <Button
+            android:id="@+id/Dimanche_btn"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="@string/dimanche"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Lundi_btn"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="@string/lundi"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Mardi_btn"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="@string/mardi"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Mercredi_btn"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="@string/mercredi"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Jeudi_btn"
+            android:layout_weight="1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/jeudi"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/email_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="EmailClique"
+        android:src="@drawable/email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/phone_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="PhoneClique"
+        android:src="@drawable/phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/linkedin_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="linkedinClique"
+        android:src="@drawable/linkedin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fax_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="352dp"
+        android:layout_marginBottom="4dp"
+        android:backgroundTint="@android:color/transparent"
+        android:defaultFocusHighlightEnabled="true"
+        android:focusedByDefault="false"
+        android:onClick="FaxClique"
+        android:src="@drawable/fax"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/matin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="275dp"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/soir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="148dp"
+        android:textColor="@color/Black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/NB"
+        android:layout_width="338dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="236dp"
+        android:gravity="center_horizontal"
+        android:text="@string/nb_cliquer_sur_les_jours_pour_voir_les_horaires_du_travail"
+        android:textAlignment="center"
+        android:textColor="@color/Black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

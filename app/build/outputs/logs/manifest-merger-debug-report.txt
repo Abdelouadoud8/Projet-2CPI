@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.firebaseui:firebase-ui-database:6.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4a2f2b232accc1a0349ec373c3ad1277\firebase-ui-database-6.2.0\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3f2791d3ecf41ed9e54a91eddcfa2ad3\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\808d7e10cd964edb4db3a496265dbbef\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -11,7 +11,7 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\AsmaaTsubaki\.gradle\c
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\81a362b35962fa2496d450cbee5c4ecc\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:15:1-38:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
-MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:2:1-77:12
+MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:2:1-77:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\874c23737bb823accb64b8c68ad31d78\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\8d2f5fc1d1c30426657ccfbb83417c32\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\32d6d4909a16d2ee7ad0c6d18077c046\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -52,45 +52,45 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\AsmaaTsubaki\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\cf1beec41d3606c2f878b1c5dd26a539\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\5e0444443ffb82f923834973bbf621d3\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\7189998640d03cd8247a01f86409460d\firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:70-116
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:70-116
 	android:versionCode
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:1-37:12
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:5:5-81
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:5:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:7:5-65
-MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:22:5-65
-MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:22:5-65
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:7:5-65
+MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:22:5-65
+MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:7:22-62
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:7:22-62
 uses-permission#android.permission.INTERNET,
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:8:5-68
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:8:5-68
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:8:22-65
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:8:22-65
 application
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:10:5-35:19
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:10:5-35:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3f2791d3ecf41ed9e54a91eddcfa2ad3\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3f2791d3ecf41ed9e54a91eddcfa2ad3\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\81a362b35962fa2496d450cbee5c4ecc\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -99,8 +99,8 @@ MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:28:5-36:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
-MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:43:5-75:19
-MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:43:5-75:19
+MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:43:5-75:19
+MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:43:5-75:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\bd9d35978d1e1a7141d4726170098ab8\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\bd9d35978d1e1a7141d4726170098ab8\firebase-auth-interop-18.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
@@ -118,67 +118,67 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\As
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:16:9-36
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:16:9-36
 	android:label
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:13:9-43
-		REJECTED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:44:9-40
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:13:9-43
+		REJECTED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:44:9-40
 	android:allowBackup
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:17:9-52
-		REJECTED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:46:9-50
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:17:9-52
+		REJECTED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:46:9-50
 	tools:replace
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:11:9-51
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:11:9-51
 activity#com.example.projet_2cpi.place
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:18:9-21:68
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:18:9-21:68
 	android:label
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:20:13-57
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:20:13-57
 	android:theme
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:21:13-56
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:19:13-34
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:19:13-34
 activity#com.example.projet_2cpi.profile
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:22:9-25:59
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:22:9-25:59
 	android:label
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:24:13-59
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:24:13-59
 	android:theme
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:25:13-56
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:23:13-36
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:23:13-36
 activity#com.example.projet_2cpi.MainActivity
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:26:9-31:20
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:26:9-31:20
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:26:19-47
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:26:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:27:13-30:29
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:29:17-77
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:29:27-74
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.projet_2cpi.activation
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:32:9-48
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:32:9-48
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:32:19-45
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:32:19-45
 activity#com.example.projet_2cpi.Rating
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:33:9-44
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:33:9-44
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:33:19-41
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:33:19-41
 activity#com.example.projet_2cpi.aboutus
-ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:34:9-45
+ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:34:9-45
 	android:name
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml:34:19-42
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml:34:19-42
 uses-sdk
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
 MERGED from [com.firebaseui:firebase-ui-database:6.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4a2f2b232accc1a0349ec373c3ad1277\firebase-ui-database-6.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.firebaseui:firebase-ui-database:6.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4a2f2b232accc1a0349ec373c3ad1277\firebase-ui-database-6.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\3f2791d3ecf41ed9e54a91eddcfa2ad3\material-1.0.0\AndroidManifest.xml:20:5-44
@@ -193,8 +193,8 @@ MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:9:5-11:41
-MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:9:5-11:41
+MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:9:5-11:41
+MERGED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:9:5-11:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\874c23737bb823accb64b8c68ad31d78\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\874c23737bb823accb64b8c68ad31d78\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\8d2f5fc1d1c30426657ccfbb83417c32\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
@@ -275,16 +275,16 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\AsmaaTsubaki\.gradl
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\5e0444443ffb82f923834973bbf621d3\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\7189998640d03cd8247a01f86409460d\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\7189998640d03cd8247a01f86409460d\firebase-database-collection-17.0.0\AndroidManifest.xml:5:5-44
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from [com.firebaseui:firebase-ui-database:6.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4a2f2b232accc1a0349ec373c3ad1277\firebase-ui-database-6.2.0\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-database:19.2.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:26:5-67
@@ -322,95 +322,95 @@ ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\4901a4505e6a27ba9afe5785cde4a3c4\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 supports-screens
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:13:5-18:40
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:13:5-18:40
 	android:largeScreens
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:15:9-36
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:15:9-36
 	android:smallScreens
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:17:9-36
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:17:9-36
 	android:normalScreens
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:16:9-37
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:16:9-37
 	android:xlargeScreens
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:18:9-37
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:18:9-37
 	android:anyDensity
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:14:9-34
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:14:9-34
 uses-feature#0x00020000
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:20:5-54
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:20:5-54
 	android:glEsVersion
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:20:19-51
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:20:19-51
 uses-feature#android.hardware.camera
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:24:5-26:36
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:24:5-26:36
 	android:required
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:26:9-33
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:26:9-33
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:25:9-47
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:25:9-47
 uses-feature#android.hardware.camera.autofocus
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:27:5-29:36
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:27:5-29:36
 	android:required
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:29:9-33
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:29:9-33
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:28:9-57
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:28:9-57
 uses-feature#android.hardware.camera.front
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:30:5-32:36
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:30:5-32:36
 	android:required
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:32:9-33
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:32:9-33
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:31:9-53
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:31:9-53
 uses-feature#android.hardware.touchscreen
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:33:5-35:36
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:33:5-35:36
 	android:required
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:35:9-33
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:35:9-33
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:34:9-52
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:34:9-52
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:36:5-38:36
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:36:5-38:36
 	android:required
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:38:9-33
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:38:9-33
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:37:9-63
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:37:9-63
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:39:5-41:36
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:39:5-41:36
 	android:required
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:41:9-33
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:41:9-33
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:40:9-72
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:40:9-72
 activity#com.arapp.guiddini.UnityPlayerActivity
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:47:9-64:20
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:47:9-64:20
 	android:screenOrientation
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:53:13-51
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:53:13-51
 	android:label
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:51:13-45
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:51:13-45
 	android:launchMode
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:52:13-44
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:52:13-44
 	android:hardwareAccelerated
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:50:13-48
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:50:13-48
 	android:configChanges
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:49:13-194
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:49:13-194
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:48:13-66
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:48:13-66
 meta-data#unityplayer.UnityActivity
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:61:13-63:40
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:61:13-63:40
 	android:value
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:63:17-37
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:63:17-37
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:62:17-57
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:62:17-57
 meta-data#unity.build-id
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:66:9-68:68
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:66:9-68:68
 	android:value
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:68:13-65
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:68:13-65
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:67:13-42
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:67:13-42
 meta-data#unity.splash-mode
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:69:9-71:33
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:69:9-71:33
 	android:value
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:71:13-30
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:71:13-30
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:70:13-45
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:70:13-45
 meta-data#unity.splash-enable
-ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:72:9-74:36
+ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:72:9-74:36
 	android:value
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:74:13-33
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:74:13-33
 	android:name
-		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\fyufu\Projet-2CPI\AR_Scan_App-debug\build\.transforms\8f89a9415b0f22ff63dd87b629fba31c\AR_Scan_App-debug\AndroidManifest.xml:73:13-47
+		ADDED from [:AR_Scan_App-debug] C:\Users\AsmaaTsubaki\Desktop\AR_APP\Projet-2CPI\AR_Scan_App-debug\build\.transforms\ef842fdf73126168860a768dc544e7d7\AR_Scan_App-debug\AndroidManifest.xml:73:13-47
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\AsmaaTsubaki\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 	android:exported
