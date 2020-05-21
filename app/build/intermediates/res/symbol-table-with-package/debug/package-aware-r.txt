@@ -1284,7 +1284,7 @@ id dayPicture2
 id decor_content_parent
 id default_activity_button
 id description
-id descripton
+id descripton_shape
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1470,7 +1470,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView2
 id textView4
 id textView7

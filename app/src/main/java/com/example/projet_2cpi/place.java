@@ -3,19 +3,13 @@ package com.example.projet_2cpi;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.example.projet_2cpi.profile;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -25,8 +19,8 @@ import com.google.firebase.database.ValueEventListener;
 import com.squareup.picasso.Picasso;
 
 public class place extends AppCompatActivity {
-    TextView Cycle, Username, NoEmployer,EmployerStat;
-    ImageView Description, Image_btn,ImageForButton;
+    TextView Cycle, Username, NoEmployer,EmployerStat, Description;
+    ImageView DescriptionShape, Image_btn,ImageForButton;
     ImageButton Go_profile_btn,Email_btn, Phone_btn, Linkedin_btn, Fax_btn;;
     DatabaseReference reff;
     String Child, make_child, Employe;
@@ -46,8 +40,9 @@ public class place extends AppCompatActivity {
         Username = (TextView)findViewById(R.id.username2);
         NoEmployer =(TextView)findViewById(R.id.noEmployer);
         EmployerStat =(TextView)findViewById(R.id.employerStat);
+        Description = (TextView) findViewById(R.id.description);
         //Image Views
-        Description = (ImageView)findViewById(R.id.descripton);
+        DescriptionShape = (ImageView)findViewById(R.id.descripton_shape);
         Image_btn = (ImageView)findViewById(R.id.image_btn);
         ImageForButton = (ImageView)findViewById(R.id.ImageForBtn);
         //ImageButtons
@@ -64,6 +59,8 @@ public class place extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 String employe_name = "";
                 String cycle = "";
+                String description = "";
+
                 //String cycle = dataSnapshot.child(Child).child("cycle").getValue().toString();
                 String employe = dataSnapshot.child(Child).child("employe").getValue().toString();
                 //String employe_name = dataSnapshot.child(employe).child("ar").child("name").getValue().toString();
@@ -91,10 +88,23 @@ public class place extends AppCompatActivity {
                         cycle = dataSnapshot.child(Child).child("ar").child("cycle").getValue().toString();
                         break;
                 }
+                switch (Language2) {
+                    case "fr":
+                        description = dataSnapshot.child(Child).child("fr").child("description").getValue().toString();
+                        break;
+                    case "en":
+                        description = dataSnapshot.child(Child).child("en").child("description").getValue().toString();
+                        break;
+                    case "ar":
+                        description = dataSnapshot.child(Child).child("ar").child("description").getValue().toString();
+                        break;
+                }
+
                 //String username = dataSnapshot.child(employe).child("name").getValue().toString();
                 Employe = employe;
                 make_child = employe;
 
+                Description.setText(description);
                 Cycle.setText(cycle);
                 if(!Employe.equals("Null")){
                     Username.setText(employe_name);
