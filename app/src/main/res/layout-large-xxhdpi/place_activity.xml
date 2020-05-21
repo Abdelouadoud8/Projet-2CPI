@@ -8,7 +8,7 @@
     tools:context=".place">
 
     <ImageView
-        android:id="@+id/descripton"
+        android:id="@+id/descripton_shape"
         android:layout_width="302dp"
         android:layout_height="220dp"
         android:layout_marginStart="10dp"
@@ -192,7 +192,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/description"
         android:layout_width="296dp"
         android:layout_height="61dp"
         android:layout_marginBottom="148dp"
