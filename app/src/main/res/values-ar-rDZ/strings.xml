@@ -50,6 +50,10 @@
     <string name="droits_content">كل حقوق النشر محفوظة - 2020 ©</string>
     <string name="matin">الصباح</string>
     <string name="soir">المساء</string>
+    <string name="searching_f">تبحث عن مكان؟</string>
+    <string name="with_guiddi">With Guiddini find the place  you or want with \nall informations you need in 1 minute!\nClick the button below or search for it</string>
+
+
 
     <string-array name="ResultSuggestions">
         <item>مكتب رئيس القسم التحضيري</item>

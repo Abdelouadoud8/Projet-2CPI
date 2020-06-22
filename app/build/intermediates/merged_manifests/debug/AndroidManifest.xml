@@ -53,6 +53,7 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name="com.example.projet_2cpi.HomeActivity" />
         <activity
             android:name="com.example.projet_2cpi.place"
             android:label="@string/title_activity_place"

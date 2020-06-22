@@ -54,6 +54,8 @@
     <string name="droits_content">© COPYRIGHT 2020 - All Rights Reserved</string>
     <string name="matin">Morning</string>
     <string name="soir">Afternoon</string>
+    <string name="searching_f">Searching For A Place?</string>
+    <string name="with_guiddi">With Guiddini find the place  you want with \n\u00A0  all informations you need to in 1 minute!\n  \u00A0 Click the button below or search for it</string>
 
 
     <string-array name="ResultSuggestions">

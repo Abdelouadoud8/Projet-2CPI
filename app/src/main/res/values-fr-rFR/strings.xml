@@ -49,6 +49,9 @@
     <string name="droits_content">© COPYRIGHT 2020 - Tous Droits Réservés</string>
     <string name="matin">Matin</string>
     <string name="soir">Soir</string>
+    <string name="searching_f">Chercher Une Place?</string>
+    <string name="with_guiddi">With Guiddini find the place  you or want with \nall informations you need in 1 minute!\nClick the button below or search for it</string>
+
 
     <string-array name="ResultSuggestions">
         <item>Bureau du chef de cycle préparatoire</item>
