@@ -62,9 +62,9 @@ public class IntroActivity extends AppCompatActivity {
 
         //fill list screen
         final List<Screenitem> mList = new ArrayList<>();
-        mList.add(new Screenitem("Find a place", "With Guiddini find the place you want in \nless than 1 minute!", R.drawable.img1));
-        mList.add(new Screenitem("Get all informations", "Guiddini allow you to get all informations \nabout personnel and services\n", R.drawable.img2));
-        mList.add(new Screenitem("Save time", "Save your time of shifting between places and \nget the direct way fot the service, office \nyou are searching for \n", R.drawable.img3));
+        mList.add(new Screenitem("Find a place", "With Guiddini find the place you want in \n \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0less than 1 minute!", R.drawable.img1));
+        mList.add(new Screenitem("Get all informations", "Guiddini allow you to get all informations \n \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 about personnel and services", R.drawable.img2));
+        mList.add(new Screenitem("Save time", "Save your time of shifting between places and \n \u00A0 \u00A0 \u00A0 get the direct way fot the service, office \n \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0you are searching for \n", R.drawable.img3));
 
         //setup viewpager
         screenPager = findViewById(R.id.screen_viewpager);

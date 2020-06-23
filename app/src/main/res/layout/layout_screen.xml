@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constrainedHeight="false"
-        app:layout_constraintGuide_percent="0.6703146" />
+        app:layout_constraintGuide_percent="0.7" />
 
     <TextView
         android:id="@+id/intro_title"
