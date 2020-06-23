@@ -54,7 +54,13 @@
         android:supportsRtl="false"
         android:testOnly="true"
         android:theme="@style/AppTheme.NoActionBar" >
-        <activity android:name="com.example.projet_2cpi.HomeActivity" />
+        <activity android:name="com.example.projet_2cpi.HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name="com.example.projet_2cpi.place"
             android:label="@string/title_activity_place"
@@ -64,11 +70,6 @@
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.projet_2cpi.MainActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="com.example.projet_2cpi.activation" />
         <activity android:name="com.example.projet_2cpi.Rating" />
