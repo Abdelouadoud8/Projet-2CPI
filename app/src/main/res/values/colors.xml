@@ -9,12 +9,7 @@
     <color name="colorStand">#F22096</color>
     <color name="first">#B105F0</color>
     <color name="second">#E14594</color>
-
-    <color name="gradient_start_color">#4c04ff</color>
-    <color name="gradient_end_color">#18a3fe</color>
-
+    
     <color name="tab_indication_gray">#c0c0c0</color>
-    <color name="intro_title_color">#000000</color>
-    <color name="intro_description_color">#656565</color>
 
 </resources>

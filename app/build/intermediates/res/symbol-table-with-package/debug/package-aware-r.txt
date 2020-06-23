@@ -685,12 +685,8 @@ color error_color_material_light
 color first
 color foreground_material_dark
 color foreground_material_light
-color gradient_end_color
-color gradient_start_color
 color highlighted_text_material_dark
 color highlighted_text_material_light
-color intro_description_color
-color intro_title_color
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
