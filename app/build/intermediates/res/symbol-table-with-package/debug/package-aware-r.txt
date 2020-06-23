@@ -24,6 +24,7 @@ anim btn_radio_to_on_mtrl_dot_group_animation
 anim btn_radio_to_on_mtrl_ring_outer_animation
 anim btn_radio_to_on_mtrl_ring_outer_path_animation
 anim btt
+anim button_animation
 anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
@@ -684,8 +685,12 @@ color error_color_material_light
 color first
 color foreground_material_dark
 color foreground_material_light
+color gradient_end_color
+color gradient_start_color
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color intro_description_color
+color intro_title_color
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -748,6 +753,7 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color tab_indication_gray
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -1076,6 +1082,7 @@ drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_gradien_style
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
@@ -1118,6 +1125,7 @@ drawable google
 drawable google1
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_arrow_forward_black_24dp
 drawable ic_contact_black_24dp
 drawable ic_help_black_24dp
 drawable ic_home_black_24dp
@@ -1130,6 +1138,12 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_rate_black_24dp
 drawable ic_share_black_24dp
+drawable img1
+drawable img2
+drawable img3
+drawable indicator_default
+drawable indicator_selected
+drawable indicator_selector
 drawable instagram
 drawable instagram1
 drawable linkedin
@@ -1257,6 +1271,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_get_started
+id btn_next
 id btnfeedback
 id btnfeedback2
 id button1
@@ -1330,6 +1346,7 @@ id google
 id google_btn
 id group_divider
 id groups
+id guideline
 id hate
 id home
 id homeAsUp
@@ -1344,6 +1361,9 @@ id image_btn
 id info
 id instagram
 id instagram_btn
+id intro_description
+id intro_img
+id intro_title
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1415,6 +1435,7 @@ id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
 id screen
+id screen_viewpager
 id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
@@ -1460,6 +1481,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id tab_indicator
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -1589,6 +1611,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout header
+layout layout_screen
 layout list_layout
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include

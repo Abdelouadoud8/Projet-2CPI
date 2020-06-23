@@ -84,7 +84,7 @@
 44-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:41:9-33
 45
 46    <application
-46-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:11:5-39:19
+46-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:11:5-38:19
 47        android:allowBackup="true"
 47-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:12:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -102,48 +102,48 @@
 55        android:theme="@style/AppTheme.NoActionBar" >
 55-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:17:9-52
 56        <activity android:name="com.example.projet_2cpi.IntroActivity" >
-56-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:19:9-25:20
+56-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:19:9-24:20
 56-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:19:19-48
 57            <intent-filter>
-57-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:21:13-24:29
+57-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:20:13-23:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:22:17-69
-58-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:22:25-66
+58-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:21:17-69
+58-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:21:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:23:17-77
-60-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:23:27-74
+60-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:22:17-77
+60-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:22:27-74
 61            </intent-filter>
 62        </activity>
 63        <activity
-63-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:26:9-29:59
+63-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:25:9-28:59
 64            android:name="com.example.projet_2cpi.place"
-64-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:27:13-34
+64-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:26:13-34
 65            android:label="@string/title_activity_place"
-65-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:28:13-57
+65-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:27:13-57
 66            android:theme="@style/AppTheme.NoActionBar" />
-66-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:29:13-56
+66-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:28:13-56
 67        <activity
-67-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:30:9-33:59
+67-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:29:9-32:59
 68            android:name="com.example.projet_2cpi.profile"
-68-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:31:13-36
+68-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:30:13-36
 69            android:label="@string/title_activity_profile"
-69-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:32:13-59
+69-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:31:13-59
 70            android:theme="@style/AppTheme.NoActionBar" />
-70-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:33:13-56
+70-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:32:13-56
 71        <activity android:name="com.example.projet_2cpi.MainActivity" >
-71-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:34:9-35:20
-71-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:34:19-47
+71-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:33:9-34:20
+71-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:33:19-47
 72        </activity>
 73        <activity android:name="com.example.projet_2cpi.activation" />
-73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:36:9-48
-73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:36:19-45
+73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:9-48
+73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:19-45
 74        <activity android:name="com.example.projet_2cpi.Rating" />
-74-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:37:9-44
-74-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:37:19-41
+74-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:36:9-44
+74-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:36:19-41
 75        <activity android:name="com.example.projet_2cpi.aboutus" />
-75-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:38:9-45
-75-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:38:19-42
+75-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:37:9-45
+75-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:37:19-42
 76
 77        <service
 77-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
