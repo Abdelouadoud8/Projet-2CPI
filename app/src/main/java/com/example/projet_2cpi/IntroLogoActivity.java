@@ -1,27 +1,19 @@
 package com.example.projet_2cpi;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.KeyEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.example.projet_2cpi.HomeActivity;
-import com.example.projet_2cpi.R;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 
-public class HomeActivity extends AppCompatActivity {
+public class IntroLogoActivity extends AppCompatActivity {
     private static int TIME = 2500;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +23,7 @@ public class HomeActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent homeIntent = new Intent(HomeActivity.this, MainActivity.class);
+                Intent homeIntent = new Intent(IntroLogoActivity.this, MainActivity.class);
                 startActivity(homeIntent);
                 finish();
 
