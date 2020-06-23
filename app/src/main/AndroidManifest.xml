@@ -16,7 +16,7 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme.NoActionBar"
         tools:replace="android:icon,android:theme">
-        <activity android:name=".IntroLogoActivity">
+        <activity android:name=".IntroActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

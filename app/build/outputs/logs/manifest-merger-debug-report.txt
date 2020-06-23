@@ -133,10 +133,10 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ab
 		REJECTED from [:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:46:9-50
 	tools:replace
 		ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:18:9-51
-activity#com.example.projet_2cpi.IntroLogoActivity
+activity#com.example.projet_2cpi.IntroActivity
 ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:19:19-52
+		ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:19:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:21:13-24:29
 action#android.intent.action.MAIN

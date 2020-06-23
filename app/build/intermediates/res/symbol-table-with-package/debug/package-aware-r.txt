@@ -1571,7 +1571,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout aboutus
 layout activation
-layout activity_home
+layout activity_intro
 layout activity_main
 layout custom_dialog
 layout design_bottom_navigation_item

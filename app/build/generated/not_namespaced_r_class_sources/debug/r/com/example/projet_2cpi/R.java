@@ -5846,7 +5846,7 @@ public final class R {
     public static final int abc_tooltip=0x7f0d001b;
     public static final int aboutus=0x7f0d001c;
     public static final int activation=0x7f0d001d;
-    public static final int activity_home=0x7f0d001e;
+    public static final int activity_intro=0x7f0d001e;
     public static final int activity_main=0x7f0d001f;
     public static final int custom_dialog=0x7f0d0020;
     public static final int design_bottom_navigation_item=0x7f0d0021;
