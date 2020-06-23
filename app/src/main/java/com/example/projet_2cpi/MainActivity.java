@@ -71,13 +71,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     static final int REQUEST_CODE = 123;
     //private EditText mSearchField;
     private ImageButton mSearchBtn;
-    private RecyclerView mResultList;
+    public static RecyclerView mResultList;
     AutoCompleteTextView mSearchField ;
     private static final String[] ResultSuggestions = new String[] {};
     //Variables for nav-bar
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
+    public static ImageView img_bg;
+    public static TextView title_bg;
+    public static TextView description_bg;
+    public static Button btn_goscan;
 
     private DatabaseReference mUserDatabase;
     Query firebaseSearchQuery;
@@ -96,6 +100,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mSearchField = findViewById(R.id.search_field);
         mSearchBtn = (ImageButton) findViewById(R.id.search_btn);
         mResultList = (RecyclerView) findViewById(R.id.result_list);
+        img_bg = (ImageView) findViewById(R.id.img_bg);
+        btn_goscan = (Button)findViewById(R.id.btn_goscan);
+        title_bg = (TextView) findViewById(R.id.title_bg);
+        description_bg = (TextView) findViewById(R.id.description_bg);
 
         /*****************************Autorisation*********************************/
 
@@ -147,6 +155,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onClick(View view) {
                 SearchResultat();
+                loadLastScreen3();
             }
         });
 
@@ -318,6 +327,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nave_rate:
                 OpenActivity(Rating.class);
         }
+        loadLastScreen1();
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
     }
@@ -395,6 +405,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         startActivity(intent);
     }
 
+    /*****************************BACKGROUND*********************************/
+    private void loadLastScreen3() {
+        img_bg.setVisibility(View.INVISIBLE);
+        btn_goscan.setVisibility(View.INVISIBLE);
+        title_bg.setVisibility(View.INVISIBLE);
+        description_bg.setVisibility(View.INVISIBLE);
+        mResultList.setVisibility(View.VISIBLE);
+    }
+
+    public static void loadLastScreen1() {
+        MainActivity.img_bg.setVisibility(View.VISIBLE);
+        MainActivity.btn_goscan.setVisibility(View.VISIBLE);
+        MainActivity.title_bg.setVisibility(View.VISIBLE);
+        MainActivity.description_bg.setVisibility(View.VISIBLE);
+        MainActivity.mResultList.setVisibility(View.INVISIBLE);
+
+    }
 
 }
 

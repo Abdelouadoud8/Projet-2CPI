@@ -1268,6 +1268,7 @@ id beginning
 id blocking
 id bottom
 id btn_get_started
+id btn_goscan
 id btn_next
 id btnfeedback
 id btnfeedback2
@@ -1299,6 +1300,7 @@ id dayPicture2
 id decor_content_parent
 id default_activity_button
 id description
+id description_bg
 id descripton_shape
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -1354,6 +1356,7 @@ id image
 id imageView
 id imageView2
 id image_btn
+id img_bg
 id info
 id instagram
 id instagram_btn
@@ -1504,6 +1507,7 @@ id textinput_helper_text
 id time
 id title
 id titleDividerNoCustom
+id title_bg
 id title_template
 id titlerate
 id titre

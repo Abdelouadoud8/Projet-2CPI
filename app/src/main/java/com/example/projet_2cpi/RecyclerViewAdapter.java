@@ -55,6 +55,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
             public void onClick(View v) {
                 USERNAME = mData.get(position).getName();
                 GENRE = mData.get(position).getGenre();
+                MainActivity.loadLastScreen1();
 
                 if(RecyclerViewAdapter.getGENRE().equals("Person")){
                     Intent intent = new Intent(v.getContext(),profile.class);
@@ -79,5 +80,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<MainActivity.Users
         USERNAME = username;
     }
     public static String getGENRE(){return GENRE;}
+
 }
 
