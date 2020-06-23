@@ -36,20 +36,20 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\331630a23dfa1f0594bcf54d5352aa36\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\331630a23dfa1f0594bcf54d5352aa36\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -68,12 +68,16 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_item_tint.xml.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\3f2791d3ecf41ed9e54a91eddcfa2ad3\\material-1.0.0\\res\\color\\mtrl_bottom_nav_item_tint.xml"
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_item_tint.xml.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\3f2791d3ecf41ed9e54a91eddcfa2ad3\\material-1.0.0\\res\\color\\mtrl_bottom_nav_item_tint.xml"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_bold.xml.flat",
@@ -96,12 +100,12 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\layout\\abc_search_view.xml"
-    },
-    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\b989d78505a527364775fcd163b70614\\play-services-base-17.0.0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_matin.png.flat",
@@ -152,12 +156,12 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
@@ -226,6 +230,10 @@
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\3f2791d3ecf41ed9e54a91eddcfa2ad3\\material-1.0.0\\res\\layout\\mtrl_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
@@ -1028,6 +1036,10 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\layout-large-xxhdpi_list_layout.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\layout-large-xxhdpi\\list_layout.xml"
     },
@@ -1204,6 +1216,10 @@
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\drawable\\abc_btn_radio_material_anim.xml"
     },
     {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bghome.png.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\drawable\\bghome.png"
     },
@@ -1250,6 +1266,10 @@
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\.gradle\\caches\\transforms-2\\files-2.1\\fb8f7031ef66b8147647717c2aecca12\\appcompat-1.1.0\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -2242,10 +2262,6 @@
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_star4.png.flat",
         "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\src\\main\\res\\drawable-v24\\star4.png"
-    },
-    {
-        "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4_ic_launcher_foreground.png.flat",
-        "source": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\AR_Scan_App-debug\\build\\.transforms\\b4fb21a4885b0e7567dda6add6cc0b22\\AR_Scan_App-debug\\res\\mipmap-mdpi-v4\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\Abd El Ouadoud\\Desktop\\Projet\\Projet-2CPI\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",

@@ -36,8 +36,8 @@
     <string name="Employer">Employer</string>
     <string name="Aller_vers_cet_endroit">Aller vers cet endroit?</string>
     <string name="choose_languages">Choisissez la langue</string>
-    <string name="activer_la_cam_ra">Activer la caméra</string>
-    <string name="activer_la_localisation">Activer la localisation</string>
+    <string name="activer_la_cam_ra">Utiliser ma position</string>
+    <string name="activer_la_localisation">Utiliser ma localisation</string>
     <string name="connected">connecté</string>
     <string name="not_connected">Assurez que vous etes connectez à internet</string>
     <string name="our_team">NOTRE EQUIPE</string>

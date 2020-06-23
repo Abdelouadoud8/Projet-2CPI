@@ -41,8 +41,8 @@
     <string name="Employer">Employee</string>
     <string name="Aller_vers_cet_endroit">Go to these place?</string>
     <string name="choose_languages">choose language</string>
-    <string name="activer_la_cam_ra">Activate the camera</string>
-    <string name="activer_la_localisation">Activate the localisation</string>
+    <string name="activer_la_cam_ra">Use My Camera</string>
+    <string name="activer_la_localisation">Use My Location</string>
     <string name="connected">connected</string>
     <string name="not_connected">Please make sure to connect to internet</string>
     <string name="our_team">OUR TEAM</string>
