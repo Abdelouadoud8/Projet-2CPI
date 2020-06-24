@@ -51,7 +51,8 @@
     <string name="matin">الصباح</string>
     <string name="soir">المساء</string>
     <string name="searching_f">تبحث عن مكان؟</string>
-    <string name="with_guiddi">With Guiddini find the place  you or want with \nall informations you need in 1 minute!\nClick the button below or search for it</string>
+    <string name="autorisation_description">شغل الكاميرا كي تسمح للتطبيق بفحص \nالمحيط الخاص بك و إيجاد كل الخدمات و الأماكن</string>
+    <string name="Enable_camera">تشغيل الكاميرا</string>
 
 
 

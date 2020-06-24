@@ -167,10 +167,10 @@ activity#com.example.projet_2cpi.MainActivity
 ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:33:9-34:20
 	android:name
 		ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:33:19-47
-activity#com.example.projet_2cpi.activation
-ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:9-48
+activity#com.example.projet_2cpi.autorisation
+ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:9-50
 	android:name
-		ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:19-45
+		ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:19-47
 activity#com.example.projet_2cpi.Rating
 ADDED from C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:36:9-44
 	android:name

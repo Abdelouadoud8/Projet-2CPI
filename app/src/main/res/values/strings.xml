@@ -55,7 +55,8 @@
     <string name="matin">Morning</string>
     <string name="soir">Afternoon</string>
     <string name="searching_f">Searching For A Place?</string>
-    <string name="with_guiddi">With Guiddini find the place  you want with \n\u00A0  all informations you need to in 1 minute!\n  \u00A0 Click the button below or search for it</string>
+    <string name="autorisation_description">Enable your camera to allow the application\n \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 scan your environement and find\n \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 all services and places</string>
+    <string name="Enable_camera">Enable Your Camera</string>
 
 
     <string-array name="ResultSuggestions">

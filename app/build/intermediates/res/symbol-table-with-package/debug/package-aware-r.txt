@@ -1069,6 +1069,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable aboutus_bg
 drawable aced_btn
+drawable activate_camera
 drawable arrow
 drawable ased1302
 drawable avd_hide_password
@@ -1361,6 +1362,7 @@ id icon_only
 id ifRoom
 id image
 id imageView
+id imageView3
 id image_btn
 id img_bg
 id info
@@ -1504,8 +1506,11 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView2
 id textView4
+id textView5
+id textView6
 id textView7
 id text_input_password_toggle
 id textinput_counter
@@ -1598,9 +1603,9 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout aboutus
-layout activation
 layout activity_intro
 layout activity_main
+layout autorisation
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1660,6 +1665,7 @@ string Aller_vers_cet_endroit
 string Amazing
 string Awsome
 string Employer
+string Enable_camera
 string Good_job
 string Not_that_good
 string Really_bad
@@ -1696,6 +1702,7 @@ string activer_la_cam_ra
 string activer_la_localisation
 string app_name
 string appbar_scrolling_view_behavior
+string autorisation_description
 string bottom_sheet_behavior
 string character_counter_content_description
 string character_counter_pattern
@@ -1780,7 +1787,6 @@ string username
 string very_bad
 string whatwedo
 string whatwedo_content
-string with_guiddi
 string you_liked_the_app_please_give_us_a_feedback
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

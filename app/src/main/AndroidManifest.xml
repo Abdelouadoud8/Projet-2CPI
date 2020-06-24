@@ -32,7 +32,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
         </activity>
-        <activity android:name=".activation" />
+        <activity android:name=".autorisation" />
         <activity android:name=".Rating" />
         <activity android:name=".aboutus" />
 

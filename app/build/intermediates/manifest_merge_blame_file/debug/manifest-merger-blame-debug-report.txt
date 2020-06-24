@@ -135,9 +135,9 @@
 71-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:33:9-34:20
 71-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:33:19-47
 72        </activity>
-73        <activity android:name="com.example.projet_2cpi.activation" />
-73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:9-48
-73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:19-45
+73        <activity android:name="com.example.projet_2cpi.autorisation" />
+73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:9-50
+73-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:35:19-47
 74        <activity android:name="com.example.projet_2cpi.Rating" />
 74-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:36:9-44
 74-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:36:19-41

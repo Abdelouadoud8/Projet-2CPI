@@ -21,15 +21,16 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:fontFamily="@font/sarala"
         android:text="TextView"
+        android:textColor="@color/Black"
         android:textSize="32dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline"
-        app:layout_constraintVertical_bias="1.0"
-        android:textColor="@color/Black"/>
+        app:layout_constraintVertical_bias="1.0" />
 -
     <TextView
         android:textColor="@color/Black"
