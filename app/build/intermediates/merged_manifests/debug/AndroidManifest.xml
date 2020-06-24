@@ -74,6 +74,10 @@
         <activity android:name="com.example.projet_2cpi.Rating" />
         <activity android:name="com.example.projet_2cpi.aboutus" />
 
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
             android:directBootAware="true"

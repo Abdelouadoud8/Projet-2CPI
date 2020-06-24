@@ -118,15 +118,15 @@ public final class R {
         public static final int actions = 0x7f0a0041;
         public static final int async = 0x7f0a0049;
         public static final int blocking = 0x7f0a004d;
-        public static final int chronometer = 0x7f0a005e;
-        public static final int dialog_button = 0x7f0a0078;
-        public static final int forever = 0x7f0a0094;
-        public static final int icon = 0x7f0a00a0;
-        public static final int icon_group = 0x7f0a00a1;
-        public static final int info = 0x7f0a00a9;
-        public static final int italic = 0x7f0a00b0;
-        public static final int line1 = 0x7f0a00b6;
-        public static final int line3 = 0x7f0a00b7;
+        public static final int chronometer = 0x7f0a005d;
+        public static final int dialog_button = 0x7f0a0076;
+        public static final int forever = 0x7f0a0092;
+        public static final int icon = 0x7f0a009e;
+        public static final int icon_group = 0x7f0a009f;
+        public static final int info = 0x7f0a00a6;
+        public static final int italic = 0x7f0a00ad;
+        public static final int line1 = 0x7f0a00b3;
+        public static final int line3 = 0x7f0a00b4;
         public static final int normal = 0x7f0a00d4;
         public static final int notification_background = 0x7f0a00d5;
         public static final int notification_main_column = 0x7f0a00d6;
@@ -143,8 +143,8 @@ public final class R {
         public static final int tag_unhandled_key_listeners = 0x7f0a012c;
         public static final int text = 0x7f0a012e;
         public static final int text2 = 0x7f0a012f;
-        public static final int time = 0x7f0a013c;
-        public static final int title = 0x7f0a013d;
+        public static final int time = 0x7f0a013a;
+        public static final int title = 0x7f0a013b;
     }
     public static final class integer {
         private integer() {}

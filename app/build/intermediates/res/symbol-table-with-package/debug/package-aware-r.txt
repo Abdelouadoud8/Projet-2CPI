@@ -17,6 +17,7 @@ anim btn_checkbox_to_checked_icon_null_animation
 anim btn_checkbox_to_unchecked_box_inner_merged_animation
 anim btn_checkbox_to_unchecked_check_path_merged_animation
 anim btn_checkbox_to_unchecked_icon_null_animation
+anim btn_openscan_animation
 anim btn_radio_to_off_mtrl_dot_group_animation
 anim btn_radio_to_off_mtrl_ring_outer_animation
 anim btn_radio_to_off_mtrl_ring_outer_path_animation
@@ -29,6 +30,9 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim img_office50_animation
+anim img_person46_animation
+anim img_place80_animation
 anim staranim
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
@@ -1161,9 +1165,12 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable office50
 drawable pasdetravail
+drawable person46
 drawable phone
 drawable place
+drawable place80
 drawable places_search_icon
 drawable profil_bg
 drawable rating_bg
@@ -1188,6 +1195,7 @@ font comfortaa_bold
 font comfortaa_light
 font nunito_bold
 font nunito_semibold
+font sanchez
 font sarala
 id ALT
 id CTRL
@@ -1272,7 +1280,6 @@ id btn_get_started
 id btn_goscan
 id btn_next
 id btnfeedback
-id btnfeedback2
 id button1
 id button2
 id buttonPanel
@@ -1301,7 +1308,6 @@ id dayPicture2
 id decor_content_parent
 id default_activity_button
 id description
-id description_bg
 id descripton_shape
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -1355,7 +1361,6 @@ id icon_only
 id ifRoom
 id image
 id imageView
-id imageView2
 id image_btn
 id img_bg
 id info
@@ -1379,6 +1384,9 @@ id linkedin_btn2
 id listMode
 id list_item
 id love
+id mainImg1
+id mainImg2
+id mainImg3
 id masked
 id matin
 id media_actions
@@ -1496,10 +1504,8 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
 id textView2
 id textView4
-id textView5
 id textView7
 id text_input_password_toggle
 id textinput_counter
@@ -1508,7 +1514,6 @@ id textinput_helper_text
 id time
 id title
 id titleDividerNoCustom
-id title_bg
 id title_template
 id titlerate
 id titre

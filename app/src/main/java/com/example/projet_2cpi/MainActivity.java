@@ -28,6 +28,8 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.view.inputmethod.EditorInfo;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
@@ -78,9 +80,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
-    public static ImageView img_bg;
-    public static TextView title_bg;
-    public static TextView description_bg;
+    public static ImageView img_bg, mainImg1, mainImg2,mainImg3;
     public static Button btn_goscan;
 
     private DatabaseReference mUserDatabase;
@@ -88,6 +88,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     FirebaseRecyclerAdapter<Users, UsersViewHolder> firebaseRecyclerAdapter;
     List<Users> result;
     private String Language_test;
+    //ANIMATION
+    static Animation btnAnim1;
+    static Animation btnAnim2;
+    static Animation btnAnim3;
+    static Animation btnAnim4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,8 +107,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         mResultList = (RecyclerView) findViewById(R.id.result_list);
         img_bg = (ImageView) findViewById(R.id.img_bg);
         btn_goscan = (Button)findViewById(R.id.btn_goscan);
-        title_bg = (TextView) findViewById(R.id.title_bg);
-        description_bg = (TextView) findViewById(R.id.description_bg);
+        mainImg1 = (ImageView) findViewById(R.id.mainImg1);
+        mainImg2 = (ImageView) findViewById(R.id.mainImg2);
+        mainImg3 = (ImageView) findViewById(R.id.mainImg3);
+        btnAnim1 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.btn_openscan_animation);
+        btnAnim2 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.img_place80_animation);
+        btnAnim3 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.img_office50_animation);
+        btnAnim4 = AnimationUtils.loadAnimation(getApplicationContext(),R.anim.img_person46_animation);
+
+
 
         /*****************************Autorisation*********************************/
 
@@ -409,17 +421,24 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private void loadLastScreen3() {
         img_bg.setVisibility(View.INVISIBLE);
         btn_goscan.setVisibility(View.INVISIBLE);
-        title_bg.setVisibility(View.INVISIBLE);
-        description_bg.setVisibility(View.INVISIBLE);
+        mainImg1.setVisibility(View.INVISIBLE);
+        mainImg2.setVisibility(View.INVISIBLE);
+        mainImg3.setVisibility(View.INVISIBLE);
         mResultList.setVisibility(View.VISIBLE);
     }
 
     public static void loadLastScreen1() {
-        MainActivity.img_bg.setVisibility(View.VISIBLE);
-        MainActivity.btn_goscan.setVisibility(View.VISIBLE);
-        MainActivity.title_bg.setVisibility(View.VISIBLE);
-        MainActivity.description_bg.setVisibility(View.VISIBLE);
-        MainActivity.mResultList.setVisibility(View.INVISIBLE);
+        img_bg.setVisibility(View.VISIBLE);
+        btn_goscan.setVisibility(View.VISIBLE);
+        mainImg1.setVisibility(View.VISIBLE);
+        mainImg1.setAnimation(btnAnim2);
+        mainImg2.setVisibility(View.VISIBLE);
+        mainImg2.setAnimation(btnAnim3);
+        mainImg3.setVisibility(View.VISIBLE);
+        mainImg3.setAnimation(btnAnim4);
+        mResultList.setVisibility(View.INVISIBLE);
+        btn_goscan.setAnimation(btnAnim1);
+
 
     }
 

@@ -30,12 +30,12 @@ public final class R {
         public static final int btn_checkbox_to_unchecked_box_inner_merged_animation = 0x7f01000f;
         public static final int btn_checkbox_to_unchecked_check_path_merged_animation = 0x7f010010;
         public static final int btn_checkbox_to_unchecked_icon_null_animation = 0x7f010011;
-        public static final int btn_radio_to_off_mtrl_dot_group_animation = 0x7f010012;
-        public static final int btn_radio_to_off_mtrl_ring_outer_animation = 0x7f010013;
-        public static final int btn_radio_to_off_mtrl_ring_outer_path_animation = 0x7f010014;
-        public static final int btn_radio_to_on_mtrl_dot_group_animation = 0x7f010015;
-        public static final int btn_radio_to_on_mtrl_ring_outer_animation = 0x7f010016;
-        public static final int btn_radio_to_on_mtrl_ring_outer_path_animation = 0x7f010017;
+        public static final int btn_radio_to_off_mtrl_dot_group_animation = 0x7f010013;
+        public static final int btn_radio_to_off_mtrl_ring_outer_animation = 0x7f010014;
+        public static final int btn_radio_to_off_mtrl_ring_outer_path_animation = 0x7f010015;
+        public static final int btn_radio_to_on_mtrl_dot_group_animation = 0x7f010016;
+        public static final int btn_radio_to_on_mtrl_ring_outer_animation = 0x7f010017;
+        public static final int btn_radio_to_on_mtrl_ring_outer_path_animation = 0x7f010018;
     }
     public static final class attr {
         private attr() {}
@@ -644,8 +644,8 @@ public final class R {
         public static final int notification_template_icon_low_bg = 0x7f0800bc;
         public static final int notification_tile_bg = 0x7f0800bd;
         public static final int notify_panel_notification_icon_bg = 0x7f0800be;
-        public static final int tooltip_frame_dark = 0x7f0800d0;
-        public static final int tooltip_frame_light = 0x7f0800d1;
+        public static final int tooltip_frame_dark = 0x7f0800d3;
+        public static final int tooltip_frame_light = 0x7f0800d4;
     }
     public static final class id {
         private id() {}
@@ -706,32 +706,32 @@ public final class R {
         public static final int alertTitle = 0x7f0a0046;
         public static final int async = 0x7f0a0049;
         public static final int blocking = 0x7f0a004d;
-        public static final int buttonPanel = 0x7f0a0056;
-        public static final int checkbox = 0x7f0a005c;
-        public static final int checked = 0x7f0a005d;
-        public static final int chronometer = 0x7f0a005e;
-        public static final int content = 0x7f0a0064;
-        public static final int contentPanel = 0x7f0a0065;
-        public static final int custom = 0x7f0a0067;
-        public static final int customPanel = 0x7f0a0068;
-        public static final int decor_content_parent = 0x7f0a006d;
-        public static final int default_activity_button = 0x7f0a006e;
-        public static final int dialog_button = 0x7f0a0078;
-        public static final int edit_query = 0x7f0a007f;
-        public static final int expand_activities_button = 0x7f0a0088;
-        public static final int expanded_menu = 0x7f0a0089;
-        public static final int forever = 0x7f0a0094;
-        public static final int group_divider = 0x7f0a009a;
-        public static final int home = 0x7f0a009e;
-        public static final int icon = 0x7f0a00a0;
-        public static final int icon_group = 0x7f0a00a1;
-        public static final int image = 0x7f0a00a4;
-        public static final int info = 0x7f0a00a9;
-        public static final int italic = 0x7f0a00b0;
-        public static final int line1 = 0x7f0a00b6;
-        public static final int line3 = 0x7f0a00b7;
-        public static final int listMode = 0x7f0a00bb;
-        public static final int list_item = 0x7f0a00bc;
+        public static final int buttonPanel = 0x7f0a0055;
+        public static final int checkbox = 0x7f0a005b;
+        public static final int checked = 0x7f0a005c;
+        public static final int chronometer = 0x7f0a005d;
+        public static final int content = 0x7f0a0063;
+        public static final int contentPanel = 0x7f0a0064;
+        public static final int custom = 0x7f0a0066;
+        public static final int customPanel = 0x7f0a0067;
+        public static final int decor_content_parent = 0x7f0a006c;
+        public static final int default_activity_button = 0x7f0a006d;
+        public static final int dialog_button = 0x7f0a0076;
+        public static final int edit_query = 0x7f0a007d;
+        public static final int expand_activities_button = 0x7f0a0086;
+        public static final int expanded_menu = 0x7f0a0087;
+        public static final int forever = 0x7f0a0092;
+        public static final int group_divider = 0x7f0a0098;
+        public static final int home = 0x7f0a009c;
+        public static final int icon = 0x7f0a009e;
+        public static final int icon_group = 0x7f0a009f;
+        public static final int image = 0x7f0a00a2;
+        public static final int info = 0x7f0a00a6;
+        public static final int italic = 0x7f0a00ad;
+        public static final int line1 = 0x7f0a00b3;
+        public static final int line3 = 0x7f0a00b4;
+        public static final int listMode = 0x7f0a00b8;
+        public static final int list_item = 0x7f0a00b9;
         public static final int message = 0x7f0a00c1;
         public static final int multiply = 0x7f0a00c6;
         public static final int none = 0x7f0a00d3;
@@ -783,15 +783,15 @@ public final class R {
         public static final int text2 = 0x7f0a012f;
         public static final int textSpacerNoButtons = 0x7f0a0130;
         public static final int textSpacerNoTitle = 0x7f0a0131;
-        public static final int time = 0x7f0a013c;
-        public static final int title = 0x7f0a013d;
-        public static final int titleDividerNoCustom = 0x7f0a013e;
-        public static final int title_template = 0x7f0a0140;
-        public static final int topPanel = 0x7f0a0145;
-        public static final int unchecked = 0x7f0a014c;
-        public static final int uniform = 0x7f0a014d;
-        public static final int up = 0x7f0a014f;
-        public static final int wrap_content = 0x7f0a015b;
+        public static final int time = 0x7f0a013a;
+        public static final int title = 0x7f0a013b;
+        public static final int titleDividerNoCustom = 0x7f0a013c;
+        public static final int title_template = 0x7f0a013d;
+        public static final int topPanel = 0x7f0a0142;
+        public static final int unchecked = 0x7f0a0149;
+        public static final int uniform = 0x7f0a014a;
+        public static final int up = 0x7f0a014c;
+        public static final int wrap_content = 0x7f0a0158;
     }
     public static final class integer {
         private integer() {}

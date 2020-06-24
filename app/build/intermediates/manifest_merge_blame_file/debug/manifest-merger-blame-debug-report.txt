@@ -84,7 +84,7 @@
 44-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:41:9-33
 45
 46    <application
-46-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:11:5-38:19
+46-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:11:5-42:19
 47        android:allowBackup="true"
 47-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:12:9-35
 48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -145,105 +145,112 @@
 75-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:37:9-45
 75-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:37:19-42
 76
-77        <service
-77-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
-78            android:name="com.google.firebase.components.ComponentDiscoveryService"
-78-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
-79            android:directBootAware="true"
-79-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
-80            android:exported="false" >
-80-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
-81            <meta-data
-81-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
-82                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-82-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
-83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
-84        </service>
-85
-86        <provider
-86-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
-87            android:name="com.squareup.picasso.PicassoProvider"
-87-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-88            android:authorities="com.example.projet_2cpi.com.squareup.picasso"
-88-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
-89            android:exported="false" />
-89-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
-90
-91        <activity
-91-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:47:9-64:20
-92            android:name="com.arapp.guiddini.UnityPlayerActivity"
-92-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:48:13-66
-93            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-93-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:49:13-194
-94            android:hardwareAccelerated="false"
-94-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:50:13-48
-95            android:label="@string/app_name"
-95-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:51:13-45
-96            android:launchMode="singleTask"
-96-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:52:13-44
-97            android:screenOrientation="fullSensor" >
-97-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:53:13-51
-98
-99            <!--
-100      <intent-filter>
-101        <action android:name="android.intent.action.MAIN" />
-102        <category android:name="android.intent.category.LAUNCHER" />
-103      </intent-filter>
-104            -->
-105            <meta-data
-105-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:61:13-63:40
-106                android:name="unityplayer.UnityActivity"
-106-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:62:17-57
-107                android:value="true" />
-107-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:63:17-37
-108        </activity>
-109
-110        <meta-data
-110-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:66:9-68:68
-111            android:name="unity.build-id"
-111-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:67:13-42
-112            android:value="a3f23647-07cd-4f0f-b070-08239a717d37" />
-112-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:68:13-65
-113        <meta-data
-113-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:69:9-71:33
-114            android:name="unity.splash-mode"
-114-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:70:13-45
-115            android:value="0" />
-115-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:71:13-30
-116        <meta-data
-116-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:72:9-74:36
-117            android:name="unity.splash-enable"
-117-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:73:13-47
-118            android:value="True" />
-118-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:74:13-33
-119
-120        <activity
-120-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-121            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-121-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-122            android:exported="false"
-122-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-123            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-123-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-124
-125        <provider
-125-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
-126            android:name="com.google.firebase.provider.FirebaseInitProvider"
-126-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
-127            android:authorities="com.example.projet_2cpi.firebaseinitprovider"
-127-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
-128            android:exported="false"
-128-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
-129            android:initOrder="100" />
-129-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
-130
-131        <meta-data
-131-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3874856b34b93dfadc1a49ebba720f25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-132            android:name="com.google.android.gms.version"
-132-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3874856b34b93dfadc1a49ebba720f25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-133            android:value="@integer/google_play_services_version" />
-133-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3874856b34b93dfadc1a49ebba720f25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-134    </application>
-135
-136</manifest>
+77        <meta-data
+77-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:39:9-41:57
+78            android:name="preloaded_fonts"
+78-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:40:13-43
+79            android:resource="@array/preloaded_fonts" />
+79-->C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\app\src\main\AndroidManifest.xml:41:13-54
+80
+81        <service
+81-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:29:9-35:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:30:13-84
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+85            <meta-data
+85-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+86                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+86-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\1b13ddd0979a31d5382231a327fe44a7\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+88        </service>
+89
+90        <provider
+90-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+91            android:name="com.squareup.picasso.PicassoProvider"
+91-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+92            android:authorities="com.example.projet_2cpi.com.squareup.picasso"
+92-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+93            android:exported="false" />
+93-->[com.squareup.picasso:picasso:2.71828] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\5cb0c20499156623a6e565f522e3411b\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+94
+95        <activity
+95-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:47:9-64:20
+96            android:name="com.arapp.guiddini.UnityPlayerActivity"
+96-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:48:13-66
+97            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+97-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:49:13-194
+98            android:hardwareAccelerated="false"
+98-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:50:13-48
+99            android:label="@string/app_name"
+99-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:51:13-45
+100            android:launchMode="singleTask"
+100-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:52:13-44
+101            android:screenOrientation="fullSensor" >
+101-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:53:13-51
+102
+103            <!--
+104      <intent-filter>
+105        <action android:name="android.intent.action.MAIN" />
+106        <category android:name="android.intent.category.LAUNCHER" />
+107      </intent-filter>
+108            -->
+109            <meta-data
+109-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:61:13-63:40
+110                android:name="unityplayer.UnityActivity"
+110-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:62:17-57
+111                android:value="true" />
+111-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:63:17-37
+112        </activity>
+113
+114        <meta-data
+114-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:66:9-68:68
+115            android:name="unity.build-id"
+115-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:67:13-42
+116            android:value="a3f23647-07cd-4f0f-b070-08239a717d37" />
+116-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:68:13-65
+117        <meta-data
+117-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:69:9-71:33
+118            android:name="unity.splash-mode"
+118-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:70:13-45
+119            android:value="0" />
+119-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:71:13-30
+120        <meta-data
+120-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:72:9-74:36
+121            android:name="unity.splash-enable"
+121-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:73:13-47
+122            android:value="True" />
+122-->[:AR_Scan_App-debug] C:\Users\Abd El Ouadoud\Desktop\Projet\Projet-2CPI\AR_Scan_App-debug\build\.transforms\b4fb21a4885b0e7567dda6add6cc0b22\AR_Scan_App-debug\AndroidManifest.xml:74:13-33
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+131            android:authorities="com.example.projet_2cpi.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+132            android:exported="false"
+132-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3280fafdfb2d308e411aff0ec617f560\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+134
+135        <meta-data
+135-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3874856b34b93dfadc1a49ebba720f25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+136            android:name="com.google.android.gms.version"
+136-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3874856b34b93dfadc1a49ebba720f25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+137            android:value="@integer/google_play_services_version" />
+137-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Abd El Ouadoud\.gradle\caches\transforms-2\files-2.1\3874856b34b93dfadc1a49ebba720f25\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+138    </application>
+139
+140</manifest>
