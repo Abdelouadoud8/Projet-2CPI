@@ -53,7 +53,7 @@
     <string name="searching_f">تبحث عن مكان؟</string>
     <string name="autorisation_description">شغل الكاميرا كي تسمح للتطبيق بفحص \nالمحيط الخاص بك و إيجاد كل الخدمات و الأماكن</string>
     <string name="Enable_camera">تشغيل الكاميرا</string>
-
+    <string name="find_a_place_now">ايجاد مكان !</string>
 
 
     <string-array name="ResultSuggestions">

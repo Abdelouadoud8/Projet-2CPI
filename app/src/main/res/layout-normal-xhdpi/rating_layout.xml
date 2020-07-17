@@ -11,14 +11,14 @@
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/rating_bg" />
+        android:background="@drawable/rating_bg"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/starone"
-        android:layout_width="133dp"
-        android:layout_height="172dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="125dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="80dp"
         android:src="@drawable/star3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +28,7 @@
         android:layout_height="220dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="240dp"
+        android:layout_marginBottom="180dp"
         android:background="@drawable/bgrate"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -101,11 +101,11 @@
     <Button
 
         android:id="@+id/btnfeedback"
-        android:layout_width="259dp"
-        android:layout_height="wrap_content"
+        android:layout_width="201dp"
+        android:layout_height="36dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="112dp"
         android:background="@drawable/mybutton"
         android:fontFamily="@font/sarala"
         android:text="@string/submit"
@@ -116,6 +116,7 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -127,7 +128,7 @@
         android:layout_marginBottom="76dp"
         android:text="@string/find_us"
         android:textColor="@color/Black"
-        android:textSize="24sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -138,7 +139,7 @@
         android:id="@+id/facebook_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="100dp"
+        android:layout_marginStart="88dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
@@ -152,7 +153,7 @@
         android:id="@+id/instagram_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="164dp"
+        android:layout_marginStart="148dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
@@ -166,7 +167,8 @@
         android:id="@+id/google_btn"
         android:layout_width="46dp"
         android:layout_height="46dp"
-        android:layout_marginStart="224dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="471dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@android:color/transparent"
         android:defaultFocusHighlightEnabled="true"
@@ -174,12 +176,15 @@
         android:onClick="GoogleClique"
         android:src="@drawable/google1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/ratingtitle"
-        android:layout_width="120dp"
-        android:layout_height="53dp"
+        android:layout_width="81dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

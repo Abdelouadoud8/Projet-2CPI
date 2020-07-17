@@ -51,7 +51,7 @@
             android:id="@+id/img_bg"
             android:layout_width="350dp"
             android:layout_height="360dp"
-            android:layout_marginStart="30dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/bghome" />
 
         <LinearLayout
@@ -89,13 +89,13 @@
             android:id="@+id/btn_goscan"
             android:layout_width="300dp"
             android:layout_height="55dp"
-            android:layout_marginStart="55dp"
             android:layout_marginTop="30dp"
+            android:layout_gravity="center"
             android:background="@drawable/mybutton"
             android:fontFamily="sans-serif"
             android:includeFontPadding="false"
 
-            android:text="find a place now"
+            android:text="@string/find_a_place_now"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
             android:textSize="22sp"

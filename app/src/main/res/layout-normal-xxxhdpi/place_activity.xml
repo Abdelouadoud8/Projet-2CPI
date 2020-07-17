@@ -7,18 +7,6 @@
     android:background="@drawable/profil_bg"
     tools:context=".place">
 
-    <ImageView
-        android:id="@+id/descripton_shape"
-        android:layout_width="334dp"
-        android:layout_height="249dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginBottom="200dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.417"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/rectangle" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"

@@ -57,6 +57,7 @@
     <string name="searching_f">Searching For A Place?</string>
     <string name="autorisation_description">Enable your camera to allow the application\n \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 scan your environement and find\n \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 \u00A0 all services and places</string>
     <string name="Enable_camera">Enable Your Camera</string>
+    <string name="find_a_place_now">find a place now</string>
 
 
     <string-array name="ResultSuggestions">

@@ -95,7 +95,7 @@
             android:fontFamily="sans-serif"
             android:includeFontPadding="false"
 
-            android:text="find a place now"
+            android:text="@string/find_a_place_now"
             android:textAllCaps="true"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
